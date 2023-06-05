@@ -1,0 +1,56 @@
+#architectural-agency{
+    padding: 50px 0;
+    .filter{
+        text-align: center;
+    }
+    .sky{display: flex;
+        justify-content: space-around;
+        align-items: center;
+        @media only screen and (max-width:768px) {
+            flex-direction: column;
+            gap: 20px;
+        }
+        .building{
+            .build{
+                background-color: rgb(209, 205, 205);
+                border: 1px solid  rgb(209, 205, 205);
+                width: 300px;
+                height: 300px;
+                color: white;
+                .fa-solid{
+                   padding: 20px 0;
+                   font-size: 70px;
+                   margin-left: 20px;
+                }
+                h3{
+                   margin-left: 20px;
+                }
+                p{
+                   margin-left: 20px;
+                }
+            }
+            img{
+              width: 300px;
+              height: 400px;
+            }
+            .buil{
+                color: white;
+             .fa-solid{
+                padding: 20px 0;
+                font-size: 70px;
+                margin-left: 20px;
+             }
+             h3{
+                margin-left: 20px;
+             }
+             p{
+                margin-left: 20px;
+             }
+                border: 1px solid gray;
+                background-color: gray;
+                width: 300px;
+                height: 300px;
+            }
+          }
+    }
+}

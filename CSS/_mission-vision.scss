@@ -1,8 +1,16 @@
 #mission-vision{
-    padding: 50px 0;
-.mission{
-    text-align: center;
-    font-family: 'Acme', sans-serif;
-
-}
+    padding: 100px 0;
+    .vision{
+        .texts{
+            font-family: 'Acme', sans-serif;
+            border: 1px solid rgb(179, 178, 178);
+            height: 300px;
+            h3{
+                color: rgb(212, 88, 88);
+            }
+            .void{
+                height: 200px;
+            }
+        }
+    }
 }

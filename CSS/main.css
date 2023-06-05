@@ -64,20 +64,6 @@ header .header nav ul li a:hover {
   color: orange;
 }
 
-header .header nav ul li button {
-  width: 120px;
-  height: 40px;
-  border-radius: 20px;
-  border: none;
-  background-color: aquamarine;
-}
-
-header .header nav ul li button:hover {
-  background-color: transparent;
-  color: aquamarine;
-  border: 1px solid aquamarine;
-}
-
 header .header #menu {
   color: #fff;
   display: none;
@@ -128,18 +114,9 @@ header .nav-mobile nav ul li a {
   text-decoration: none;
 }
 
-header .nav-mobile nav ul li button {
-  width: 120px;
-  height: 40px;
-  border-radius: 20px;
-  border: none;
-  background-color: aquamarine;
-}
-
-header .nav-mobile nav ul li button:hover {
-  background-color: transparent;
-  color: aquamarine;
-  border: 1px solid aquamarine;
+header .nav-mobile nav ul li a:hover {
+  text-decoration: underline;
+  color: orange;
 }
 
 header .nav-mobile.show {
@@ -193,21 +170,47 @@ header .nav-mobile.show {
 }
 
 #mission-vision {
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
-#mission-vision .mission {
-  text-align: center;
+#mission-vision .vision .texts {
   font-family: 'Acme', sans-serif;
+  border: 1px solid #b3b2b2;
+  height: 300px;
+}
+
+#mission-vision .vision .texts h3 {
+  color: #d45858;
+}
+
+#mission-vision .vision .texts .void {
+  height: 200px;
 }
 
 #residential {
-  height: 100vh;
   background-image: url(../Image/pexels-photo-325185.jpeg);
 }
 
 #residential .cards {
-  padding: 400px 0;
+  padding: 300px 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #residential .cards {
+    gap: 50px;
+  }
+}
+
+#residential .cards .col-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
 }
 
@@ -221,5 +224,96 @@ header .nav-mobile.show {
   position: relative;
   top: -40px;
   left: 90px;
+}
+
+#about {
+  padding: 70px 0;
+}
+
+#about .all-card .col-12 {
+  text-align: center;
+}
+
+#about .all-card .about img {
+  width: 250px;
+  height: 250px;
+}
+
+#architectural-agency {
+  padding: 50px 0;
+}
+
+#architectural-agency .filter {
+  text-align: center;
+}
+
+#architectural-agency .sky {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #architectural-agency .sky {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+}
+
+#architectural-agency .sky .building .build {
+  background-color: #d1cdcd;
+  border: 1px solid #d1cdcd;
+  width: 300px;
+  height: 300px;
+  color: white;
+}
+
+#architectural-agency .sky .building .build .fa-solid {
+  padding: 20px 0;
+  font-size: 70px;
+  margin-left: 20px;
+}
+
+#architectural-agency .sky .building .build h3 {
+  margin-left: 20px;
+}
+
+#architectural-agency .sky .building .build p {
+  margin-left: 20px;
+}
+
+#architectural-agency .sky .building img {
+  width: 300px;
+  height: 400px;
+}
+
+#architectural-agency .sky .building .buil {
+  color: white;
+  border: 1px solid gray;
+  background-color: gray;
+  width: 300px;
+  height: 300px;
+}
+
+#architectural-agency .sky .building .buil .fa-solid {
+  padding: 20px 0;
+  font-size: 70px;
+  margin-left: 20px;
+}
+
+#architectural-agency .sky .building .buil h3 {
+  margin-left: 20px;
+}
+
+#architectural-agency .sky .building .buil p {
+  margin-left: 20px;
 }
 /*# sourceMappingURL=main.css.map */

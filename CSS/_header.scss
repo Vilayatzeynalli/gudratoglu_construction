@@ -28,18 +28,6 @@ header {
                color: orange;
               }
             }
-            button {
-              width: 120px;
-              height: 40px;
-              border-radius: 20px;
-              border: none;
-              background-color: aquamarine;
-              &:hover {
-                background-color: transparent;
-                color: aquamarine;
-                border: 1px solid aquamarine;
-              }
-            }
           }
         }
       }
@@ -79,18 +67,10 @@ header {
             a {
               color: #fff;
               text-decoration: none;
-            }
-            button {
-              width: 120px;
-              height: 40px;
-              border-radius: 20px;
-              border: none;
-              background-color: aquamarine;
-              &:hover {
-                background-color: transparent;
-                color: aquamarine;
-                border: 1px solid aquamarine;
-              }
+              &:hover{
+                text-decoration: underline;
+                color: orange;
+               }
             }
           }
         }

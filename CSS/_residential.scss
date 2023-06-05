@@ -1,9 +1,17 @@
 #residential{
-  height: 100vh;
     background-image: url(../Image/pexels-photo-325185.jpeg);
     .cards{
-        padding: 400px 0;
+        padding: 300px 0;
         text-align: center;
+        @media only screen and (max-width:768px) {
+            gap: 50px;
+        }
+        .col-12{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+        }
         img{
             padding: 15px;
             height: 100px;
