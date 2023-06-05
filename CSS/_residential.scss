@@ -1,0 +1,19 @@
+#residential{
+  height: 100vh;
+    background-image: url(../Image/pexels-photo-325185.jpeg);
+    .cards{
+        padding: 400px 0;
+        text-align: center;
+        img{
+            padding: 15px;
+            height: 100px;
+            border: 1px solid black;
+            border-radius: 50%;
+            background-color: rgb(12, 12, 104);
+            width: 100px;
+           position: relative;
+           top: -40px;
+           left: 90px;
+        }
+    }
+}
