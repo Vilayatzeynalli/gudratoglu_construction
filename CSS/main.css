@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit&family=Montserrat:wght@200;400&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans&family=Kanit&family=Lilita+One&family=Montserrat:wght@200;400&family=Pacifico&family=Russo+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -175,12 +177,10 @@ header .nav-mobile.show {
 
 #mission-vision .vision .texts {
   font-family: 'Acme', sans-serif;
-  border: 1px solid #b3b2b2;
-  height: 300px;
 }
 
 #mission-vision .vision .texts h3 {
-  color: #d45858;
+  color: #f13939;
 }
 
 #mission-vision .vision .texts .void {
@@ -189,6 +189,7 @@ header .nav-mobile.show {
 
 #residential {
   background-image: url(../Image/pexels-photo-325185.jpeg);
+  font-family: 'Lobster';
 }
 
 #residential .cards {
@@ -315,5 +316,35 @@ header .nav-mobile.show {
 
 #architectural-agency .sky .building .buil p {
   margin-left: 20px;
+}
+
+#projects {
+  padding: 50px 0;
+}
+
+#projects .title {
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+}
+
+#projects .row .col-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+#projects .row .col-12 .btn {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: -3%;
+  margin-left: 65%;
 }
 /*# sourceMappingURL=main.css.map */

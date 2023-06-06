@@ -1,0 +1,76 @@
+{
+    "apartments":[
+        {
+            "id":1,
+            "photo":"../Image/35670_hg6mDlzCNl9hIeJgk6PjxA.jpg",
+            "price":550000,
+            "address":"Academy of Sciences M",
+            "grass":3,
+            "square":162,
+            "city":"Baku"
+        },
+        {
+            "id":2,
+            "photo":"../Image/40101_5PwSV2akkFi-Ad7blIHu_Q.jpg",
+            "price":350000,
+            "address":"Nizami M",
+            "grass":2,
+            "square":140,
+            "city":"Baku"
+        },
+        {
+            "id":3,
+            "photo":"../Image/35650_JbvWmzK9tdNpM0v_9vTxOA.jpg",
+            "price":550000,
+            "address":"Neftchliar M",
+            "grass":3,
+            "square":174,
+            "city":"Baku"
+        },
+        {
+            "id":4,
+            "photo":"../Image/36586_e3Q56Z5uYT5ghP2ZtQLSvA.jpg",
+            "price":125000,
+            "address":"Xirdalan",
+            "grass":4,
+            "square":120,
+            "city":"Xirdalan"
+        },
+        {
+            "id":5,
+            "photo":"../Image/40071_YThZPCwIVX84I8onc0WlGA.jpg",
+            "price":360000,
+            "address":"Yasamal",
+            "grass":4,
+            "square":97,
+            "city":"Baku"
+        },
+        {
+            "id":6,
+            "photo":"../Image/31239_PWh946XjP9RGj13Ca1Ctgg.jpg",
+            "price":244000,
+            "address":"Nesimi",
+            "grass":2,
+            "square":110,
+            "city":"Baku"
+        },
+        {
+            "id":7,
+            "photo":"../Image/35669_C4Z-GJmanZmZpHZL82g1uw.jpg",
+            "price":395000,
+            "address":"Yasamal",
+            "grass":3,
+            "square":115,
+            "city":"Baku"
+        },
+        {
+            "id":8,
+            "photo":"../Image/65704_ySiApUQ9SWE-heCS6Ouz8A.jpg",
+            "price":127000,
+            "address":"Koroghlu M",
+            "grass":1,
+            "square":51,
+            "city":"Baku"
+        }
+    ]
+}
