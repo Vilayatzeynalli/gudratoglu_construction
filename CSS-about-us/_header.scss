@@ -1,0 +1,132 @@
+header {
+    background-color: #000;
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 0;
+      .log{
+       a{
+        text-decoration: none;
+        color: white;
+        &:hover{
+          color: orange;
+          text-decoration: underline;
+        }
+       }
+       .login{
+        border: 1px solid white;
+       background-color: white;
+       color: black; 
+       height: 30px;
+       width: 50px;
+       border-radius: 6px;
+       &:hover{
+       background-color: orange;
+       color: white;
+       border: none;
+       }
+       }
+      }
+      .logo {
+        color: #fff;
+      }
+      .language{
+        .fa-solid{
+            color: #fff;
+            font-size: 20px;
+        }
+      }
+      nav {
+        ul {
+          display: flex;
+          gap: 30px;
+          align-items: center;
+          li {
+            a {
+              color: #fff;
+              text-decoration: none;
+              &:hover{
+               text-decoration: underline;
+               color: orange;
+              }
+            }
+          }
+        }
+      }
+      #menu {
+        color: #fff;
+        display: none;
+      }
+      @media only screen and (max-width: 767px) {
+        nav {
+          display: none;
+        }
+        .log{
+            display: none;
+        }
+        .language{
+            display: none;
+        }
+        #menu {
+          display: block;
+          color: #fff;
+        }
+      }
+    }
+    .nav-mobile {
+      nav {
+        .language{
+            .fa-solid{
+                color: #fff;
+                font-size: 20px;
+            }
+        }
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          align-items: center;
+          justify-content: center;
+          height: 80vh;
+          .log{
+            a{
+             text-decoration: none;
+             color: white;
+             &:hover{
+               color: orange;
+               text-decoration: underline;
+             }
+            }
+            .login{
+             border: 1px solid white;
+            background-color: white;
+            color: black; 
+            height: 30px;
+            width: 50px;
+            border-radius: 6px;
+            &:hover{
+            background-color: orange;
+            color: white;
+            border: none;
+            }
+            }
+           }
+          li {
+            a {
+              color: #fff;
+              text-decoration: none;
+              &:hover{
+                text-decoration: underline;
+                color: orange;
+               }
+            }
+          }
+        }
+      }
+      display: none;
+      &.show {
+        display: block;
+      }
+    }
+  }

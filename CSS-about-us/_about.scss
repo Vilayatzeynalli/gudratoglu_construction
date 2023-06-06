@@ -1,0 +1,30 @@
+#about{
+    padding: 100px 0;
+    background-image: url(../Image/65455min1.jpg);
+    text-align: center;
+   h1{
+    font-size: 80px;
+    font-family: 'Russo One', sans-serif;
+   }
+   ul{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    @media only screen and (max-width:568px){
+        flex-direction: column;
+    }
+    li{
+        a{
+        text-decoration: none;
+        color: white;
+        border: 1px solid black;
+        border-radius: 7px;
+         &:hover{
+            color: black;
+         }
+        }
+    }
+   }
+}

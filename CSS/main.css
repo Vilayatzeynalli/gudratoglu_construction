@@ -438,41 +438,41 @@ header .nav-mobile.show {
   border-radius: 100%;
 }
 
-footer {
+#footer-top {
   background-image: url(../Image/vbvbvb-min.jpg);
   padding: 100px 0;
 }
 
 @media only screen and (max-width: 768px) {
-  footer {
+  #footer-top {
     background-image: url(../Image/rf.jpg);
   }
-  footer .contact h1 {
+  #footer-top .contact h1 {
     color: black;
   }
 }
 
-footer .contact {
+#footer-top .contact {
   text-align: center;
   color: white;
 }
 
-footer .contact h1 {
+#footer-top .contact h1 {
   font-size: 70px;
 }
 
-footer .contacts .col-12 {
+#footer-top .contacts .col-12 {
   text-align: center;
 }
 
-footer .contacts .col-12 input {
+#footer-top .contacts .col-12 input {
   height: 50px;
   width: 300px;
   border-radius: 7px;
   background-color: #ebe9e9;
 }
 
-footer .contacts .col-12 button {
+#footer-top .contacts .col-12 button {
   height: 50px;
   width: 100px;
   background-color: blue;
@@ -481,7 +481,7 @@ footer .contacts .col-12 button {
   border: none;
 }
 
-footer .call {
+#footer-top .call {
   gap: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -493,7 +493,7 @@ footer .call {
           align-items: center;
 }
 
-footer .call .call-us {
+#footer-top .call .call-us {
   background-color: #050569;
   padding: 20px 10px;
   color: white;
@@ -503,11 +503,11 @@ footer .call .call-us {
   color: white;
 }
 
-footer .call .call-us .fa-solid {
+#footer-top .call .call-us .fa-solid {
   font-size: 20px;
 }
 
-footer .call .call-us span {
+#footer-top .call .call-us span {
   font-size: 20px;
 }
 /*# sourceMappingURL=main.css.map */
