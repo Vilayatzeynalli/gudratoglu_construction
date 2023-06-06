@@ -437,4 +437,77 @@ header .nav-mobile.show {
   height: 240px;
   border-radius: 100%;
 }
+
+footer {
+  background-image: url(../Image/vbvbvb-min.jpg);
+  padding: 100px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    background-image: url(../Image/rf.jpg);
+  }
+  footer .contact h1 {
+    color: black;
+  }
+}
+
+footer .contact {
+  text-align: center;
+  color: white;
+}
+
+footer .contact h1 {
+  font-size: 70px;
+}
+
+footer .contacts .col-12 {
+  text-align: center;
+}
+
+footer .contacts .col-12 input {
+  height: 50px;
+  width: 300px;
+  border-radius: 7px;
+  background-color: #ebe9e9;
+}
+
+footer .contacts .col-12 button {
+  height: 50px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  border-radius: 7px;
+  border: none;
+}
+
+footer .call {
+  gap: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .call .call-us {
+  background-color: #050569;
+  padding: 20px 10px;
+  color: white;
+  border: none;
+  height: 160px;
+  width: 350px;
+  color: white;
+}
+
+footer .call .call-us .fa-solid {
+  font-size: 20px;
+}
+
+footer .call .call-us span {
+  font-size: 20px;
+}
 /*# sourceMappingURL=main.css.map */

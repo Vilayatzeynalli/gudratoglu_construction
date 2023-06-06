@@ -1,0 +1,62 @@
+footer{
+    background-image: url(../Image/vbvbvb-min.jpg);
+    padding: 100px 0;
+    @media only screen and (max-width:768px) {
+        background-image: url(../Image/rf.jpg);
+        .contact{
+         h1{
+            color: black;
+         }
+        }
+    }
+    .contact{
+        text-align: center; 
+        color: white;  
+       h1{
+        font-size: 70px;
+       }
+    }
+   .contacts{
+    // border: 1px solid white;
+    // height: 200px;
+    // background-color: white;
+    .col-12{
+      text-align: center;
+        input{
+            height: 50px;
+            width: 300px;
+            border-radius: 7px;
+            background-color: rgb(235, 233, 233);
+        }
+        button{
+            height: 50px;
+            width: 100px;
+            background-color: blue;
+            color: white;
+            border-radius: 7px;
+            border: none;
+        }
+    }
+   }
+   .call{
+    gap: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .call-us{
+        background-color: rgb(5, 5, 105);
+        padding: 20px 10px;
+        color: white;
+        border: none;
+        height: 160px;
+        width: 350px;
+        color: white;
+        .fa-solid{
+            font-size: 20px;
+        }
+        span{
+            font-size: 20px;
+        }
+    }
+   }
+}
