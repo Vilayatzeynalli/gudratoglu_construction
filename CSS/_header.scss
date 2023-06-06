@@ -5,6 +5,29 @@ header {
       justify-content: space-between;
       align-items: center;
       padding: 30px 0;
+      .log{
+       a{
+        text-decoration: none;
+        color: white;
+        &:hover{
+          color: orange;
+          text-decoration: underline;
+        }
+       }
+       .login{
+        border: 1px solid white;
+       background-color: white;
+       color: black; 
+       height: 30px;
+       width: 50px;
+       border-radius: 6px;
+       &:hover{
+       background-color: orange;
+       color: white;
+       border: none;
+       }
+       }
+      }
       .logo {
         color: #fff;
       }
@@ -39,6 +62,9 @@ header {
         nav {
           display: none;
         }
+        .log{
+            display: none;
+        }
         .language{
             display: none;
         }
@@ -63,6 +89,29 @@ header {
           align-items: center;
           justify-content: center;
           height: 80vh;
+          .log{
+            a{
+             text-decoration: none;
+             color: white;
+             &:hover{
+               color: orange;
+               text-decoration: underline;
+             }
+            }
+            .login{
+             border: 1px solid white;
+            background-color: white;
+            color: black; 
+            height: 30px;
+            width: 50px;
+            border-radius: 6px;
+            &:hover{
+            background-color: orange;
+            color: white;
+            border: none;
+            }
+            }
+           }
           li {
             a {
               color: #fff;

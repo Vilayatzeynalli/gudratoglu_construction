@@ -37,6 +37,31 @@ header .header {
   padding: 30px 0;
 }
 
+header .header .log a {
+  text-decoration: none;
+  color: white;
+}
+
+header .header .log a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+header .header .log .login {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 50px;
+  border-radius: 6px;
+}
+
+header .header .log .login:hover {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
 header .header .logo {
   color: #fff;
 }
@@ -75,6 +100,9 @@ header .header #menu {
   header .header nav {
     display: none;
   }
+  header .header .log {
+    display: none;
+  }
   header .header .language {
     display: none;
   }
@@ -109,6 +137,31 @@ header .nav-mobile nav ul {
       -ms-flex-pack: center;
           justify-content: center;
   height: 80vh;
+}
+
+header .nav-mobile nav ul .log a {
+  text-decoration: none;
+  color: white;
+}
+
+header .nav-mobile nav ul .log a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+header .nav-mobile nav ul .log .login {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 50px;
+  border-radius: 6px;
+}
+
+header .nav-mobile nav ul .log .login:hover {
+  background-color: orange;
+  color: white;
+  border: none;
 }
 
 header .nav-mobile nav ul li a {
@@ -337,14 +390,51 @@ header .nav-mobile.show {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  position: relative;
 }
 
 #projects .row .col-12 .btn {
-  color: white;
+  color: black;
   font-size: 30px;
-  position: absolute;
-  top: -3%;
-  margin-left: 65%;
+}
+
+#phone {
+  background-color: #dfd9d9;
+  padding: 50px 0;
+}
+
+#phone .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
+#phone .row .col-12 {
+  font-size: 22px;
+}
+
+#phone .row .col-12 .fa-solid {
+  font-size: 40px;
+}
+
+#phone .row .col-12 a {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+}
+
+#phone .row .col-12 a:hover {
+  color: blue;
+}
+
+#phone .row .col-12 img {
+  width: 340px;
+  height: 240px;
+  border-radius: 100%;
 }
 /*# sourceMappingURL=main.css.map */

@@ -5,7 +5,7 @@ const sortBtn=document.querySelector("#sortBtn");
 const loadMore=document.querySelector("#loadMore");
 let searchData=[];
 let allData=[];
-let maxLength=4;
+let maxLength=3;
 
 function getAllData(array){
     row.innerHTML="";
@@ -17,7 +17,7 @@ function getAllData(array){
             <div class="card-body">
               <h5 class="card-title">${element.price} AZN</h5>
               <p class="card-text">${element.address}</p>
-              <p>${element.grass} grassy</p><p>${element.square} Kv.m</p><span>${element.city}</span>
+              <p>${element.grass} grassy</p><p>${element.square} Kv.m</p><span>${element.city}</span><br>
               <a href="#" class="btn"><i class="fa-regular fa-heart"></i></a>
             </div>
           </div>
@@ -59,26 +59,20 @@ sortBtn.addEventListener("click",function(){
 });
 
 
+// loadMore.addEventListener("click",function(){
+//     maxLength+=3
+//     if(maxLength >= searchData.length){
+//         loadMore.style.display=`none`
 
+//     }if(searchData.length){
+//     getAllData(searchData.slice(0,maxLength));
+        
+//     }
+//     else{
+        
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//     }
+// })
 
 
 
