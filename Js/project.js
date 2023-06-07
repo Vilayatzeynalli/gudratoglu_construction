@@ -3,9 +3,7 @@ const row=document.querySelector(".apartment");
 const inputSearch=document.querySelector("#inputSearch");
 const sortBtn=document.querySelector("#sortBtn");
 const loadMore=document.querySelector("#loadMore");
-let searchData=[];
-let allData=[];
-let maxLength=3;
+
 
 function getAllData(array){
     row.innerHTML="";
@@ -15,10 +13,10 @@ function getAllData(array){
         <div class="card" style="width: 18rem;">
             <img src="${element.photo}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">${element.price} AZN</h5>
-              <h6 class="card-text">${element.address}</h6>
+              <h4 class="card-title">${element.price} AZN</h4>
+              <h5 class="card-text">${element.address}</h5>
              <p> ${element.grass} grassy,${element.square} Kv.m</p><h6>${element.city}</h6>
-              <a href="../assets/add.html?id=${element.id}" class="btn"><i class="fa-solid fa-heart"></i></a>
+              <a href="../assets/fav.html?id=${element.id}" class="btn"><i class="fa-solid fa-heart"></i></a>
               <a href="#" class="btn"><i class="fa-solid fa-circle-info"></i></a>
             </div>
           </div>
@@ -26,6 +24,7 @@ function getAllData(array){
     });
 }
 axios(BASE).then((res)=>getAllData(res.data));
+
 
 //search
 inputSearch.addEventListener("input",function(e){
@@ -41,13 +40,13 @@ inputSearch.addEventListener("input",function(e){
 sortBtn.addEventListener("click",function(){
     if(this.innerHTML=="Ascending"){
     axios(BASE).then((res)=>{
-    const sortAsc=res.data.sort((a,b)=>a.price-b.price);
+    const sortAsc=res.data.sort((a,b)=>a.square-b.square);
     getAllData(sortAsc);
         });
     this.innerHTML="Descending"; 
     }else if(this.innerHTML=="Descending"){
         axios(BASE).then((res)=>{
-            const sortAsc=res.data.sort((a,b)=>b.price-a.price);
+            const sortAsc=res.data.sort((a,b)=>b.square-a.square);
             getAllData(sortAsc);
         });
         this.innerHTML="Default";    
@@ -60,6 +59,16 @@ sortBtn.addEventListener("click",function(){
 });
 
 
+///Favorites
+const FAV_URL = "http://localhost:8000/favorites";
+
+async function addFav(id) {
+  let res = await axios(`${BASE}/${id}`);
+  let obj = await res.data;
+  console.log('fav',obj);
+  axios.post(`${FAV_URL}`, obj);
+  window.location = "fav.html";
+};
 
 
 

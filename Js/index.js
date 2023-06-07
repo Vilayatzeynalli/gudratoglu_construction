@@ -16,19 +16,6 @@
 // })
 
 
-///Favorites
-const FAV_URL = "http://localhost:8000/favorites";
-
-async function addFav(id) {
-  let res = await axios(`${BASE}/${id}`);
-  let obj = await res.data;
-  console.log('faav',obj);
-  axios.post(`${FAV_URL}`, obj);
-  window.location = "fav.html";
-};
-
-
-
 //menu iconu
 let menuIcon = document.querySelector("#menu");
 let navMobile = document.querySelector(".nav-mobile");
