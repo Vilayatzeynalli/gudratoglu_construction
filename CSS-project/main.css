@@ -1,0 +1,122 @@
+#our-project {
+  padding: 100px 0;
+  background-image: url(../Image/asd-min.jpg);
+  text-align: center;
+}
+
+#our-project h1 {
+  font-size: 80px;
+  font-family: 'Russo One', sans-serif;
+}
+
+#our-project ul {
+  padding: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 568px) {
+  #our-project ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#our-project ul li a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+#our-project ul li a:hover {
+  color: black;
+}
+
+#projects {
+  padding: 50px 0;
+}
+
+#projects .title {
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+}
+
+#projects .row .col-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#projects .row .col-12 .btn {
+  color: black;
+  font-size: 30px;
+}
+
+#roads {
+  padding: 50px 0;
+}
+
+#roads .title {
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+}
+
+#roads .kutaisi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+#roads .kutaisi h6 {
+  width: 500px;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 230px;
+}
+
+@media only screen and (max-width: 600px) {
+  #roads .kutaisi h6 {
+    width: 300px;
+    position: absolute;
+    top: 80%;
+    font-size: 15px;
+  }
+}
+
+#roads .kutaisi img {
+  width: 500px;
+  height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  #roads .kutaisi img {
+    width: 350px;
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
