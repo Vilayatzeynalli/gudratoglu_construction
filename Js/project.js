@@ -16,8 +16,8 @@ function getAllData(array){
               <h4 class="card-title">${element.price} AZN</h4>
               <h5 class="card-text">${element.address}</h5>
              <p> ${element.grass} grassy,${element.square} Kv.m</p><h6>${element.city}</h6>
-              <a href="../assets/fav.html?id=${element.id}" class="btn"><i class="fa-solid fa-heart"></i></a>
-              <a href="#" class="btn"><i class="fa-solid fa-circle-info"></i></a>
+              <a href="#" onclick=addFav(${element.id}) class="btn"><i class="fa-solid fa-heart"></i></a>
+              <a href="./details.html?id=${element.id}" class="btn"><i class="fa-solid fa-circle-info"></i></a>
             </div>
           </div>
       </div>`
