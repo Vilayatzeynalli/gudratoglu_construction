@@ -1,41 +1,39 @@
 #core-values{
-    padding: 50px 0;
-    background-image: url(../Image/-min.jpg);
     @media only screen and (max-width:768px) {
-        background-image: url(../Image/rf.jpg);
+        .carousel-control-prev{
+            display: none;
+        }
+        .carousel-control-next{
+            display: none;
+        }
     }
-    .row{
-        .bg-img-1{
-            .text{
-                color: rgb(248, 244, 244);
-                h6{
-                    font-family: 'Pacifico', cursive;
-                }
-                h1{
-                    font-family: 'Russo One', sans-serif;
-                }
-                position: relative;
-               &::after{
-                 content: "";
-                 position: absolute;
-                 bottom: -50px;
-                 left: 0;
-                 right: 0;
-                 height: 12px;
-                 width: 250px;
-                 background-color: rgb(212, 122, 31);
-
-               }
-            }
-
-            padding: 150px 0;
-            h6{
-                font-size: 20px;
-            }
-            h1{
-                font-size: 70px;
-            }
-            
+    .carousel-caption{
+        top: 30%;
+       .text{
+      h6{
+        font-size: 20px;
+        letter-spacing: 5px;
+      }
+      h1{
+        font-size: 60px;
+        font-family: 'Russo One', sans-serif;
+        letter-spacing: 5px;
+      }
+       }
+    }
+    .slider-2{
+        top: 30%;
+        .text{
+            color: white;
+       h6{
+         font-size: 20px;
+         letter-spacing: 5px;
+       }
+       h1{
+         font-size: 60px;
+         font-family: 'Russo One', sans-serif;
+         letter-spacing: 5px;
+       }
         }
     }
 }

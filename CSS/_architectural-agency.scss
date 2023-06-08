@@ -2,6 +2,10 @@
     padding: 50px 0;
     .filter{
         text-align: center;
+        font-family: 'Russo One', sans-serif;
+        h1{
+         font-size: 50px;
+        }
     }
     .sky{display: flex;
         justify-content: space-around;
@@ -17,6 +21,7 @@
                 width: 300px;
                 height: 300px;
                 color: white;
+                font-family: 'Acme', sans-serif;
                 .fa-solid{
                    padding: 20px 0;
                    font-size: 70px;
