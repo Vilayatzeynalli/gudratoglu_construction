@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit&family=Montserrat:wght@200;400&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans&family=Kanit&family=Lilita+One&family=Montserrat:wght@200;400&family=Pacifico&family=Russo+One&display=swap");
 header {
-  background-color: #000;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 header .header {
@@ -14,12 +17,20 @@ header .header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px 0;
+  padding: 20px 0;
+  font-family: 'Patua One';
+  font-size: 19px;
+}
+
+header .header img {
+  height: 60px;
+  width: 150px;
 }
 
 header .header .log a {
   text-decoration: none;
-  color: white;
+  color: black;
+  font-family: 'Acme', sans-serif;
 }
 
 header .header .log a:hover {
@@ -28,7 +39,8 @@ header .header .log a:hover {
 }
 
 header .header .log .login {
-  border: 1px solid white;
+  font-family: 'Acme', sans-serif;
+  border: 1px solid black;
   background-color: white;
   color: black;
   height: 30px;
@@ -42,12 +54,8 @@ header .header .log .login:hover {
   border: none;
 }
 
-header .header .logo {
-  color: #fff;
-}
-
 header .header .language .fa-solid {
-  color: #fff;
+  color: #000;
   font-size: 20px;
 }
 
@@ -62,8 +70,10 @@ header .header nav ul {
 }
 
 header .header nav ul li a {
-  color: #fff;
+  font-family: 'Acme', sans-serif;
+  color: #000;
   text-decoration: none;
+  font-family: 'Acme', sans-serif;
 }
 
 header .header nav ul li a:hover {
@@ -76,7 +86,7 @@ header .header #menu {
   display: none;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
   header .header nav {
     display: none;
   }
@@ -88,7 +98,7 @@ header .header #menu {
   }
   header .header #menu {
     display: block;
-    color: #fff;
+    color: #000;
   }
 }
 
@@ -97,7 +107,7 @@ header .nav-mobile {
 }
 
 header .nav-mobile nav .language .fa-solid {
-  color: #fff;
+  color: #000;
   font-size: 20px;
 }
 
@@ -117,11 +127,12 @@ header .nav-mobile nav ul {
       -ms-flex-pack: center;
           justify-content: center;
   height: 80vh;
+  font-family: 'Acme', sans-serif;
 }
 
 header .nav-mobile nav ul .log a {
   text-decoration: none;
-  color: white;
+  color: #000;
 }
 
 header .nav-mobile nav ul .log a:hover {
@@ -130,12 +141,13 @@ header .nav-mobile nav ul .log a:hover {
 }
 
 header .nav-mobile nav ul .log .login {
-  border: 1px solid white;
+  border: 1px solid black;
   background-color: white;
   color: black;
   height: 30px;
   width: 50px;
   border-radius: 6px;
+  font-family: 'Acme', sans-serif;
 }
 
 header .nav-mobile nav ul .log .login:hover {
@@ -145,7 +157,7 @@ header .nav-mobile nav ul .log .login:hover {
 }
 
 header .nav-mobile nav ul li a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -179,7 +191,7 @@ header .nav-mobile.show {
 }
 
 #about {
-  padding: 100px 0;
+  padding: 200px 0;
   background-image: url(../Image/65455min1.jpg);
   text-align: center;
 }
@@ -213,6 +225,7 @@ header .nav-mobile.show {
 }
 
 #about ul li a {
+  font-family: 'Acme', sans-serif;
   text-decoration: none;
   color: white;
   border: 1px solid black;
@@ -228,25 +241,42 @@ header .nav-mobile.show {
   padding: 100px 0;
 }
 
-#our-success .our h2 {
+#our-success .our .col-12 h2 {
   font-family: 'Russo One', sans-serif;
   font-size: 45px;
 }
 
-#our-success .our p {
-  font-family: 'Geologica', sans-serif;
+#our-success .our .col-12 p {
+  font-family: 'Acme', sans-serif;
 }
 
 #guilding-principles {
-  padding: 150px 0;
+  padding: 70px 0;
+}
+
+#guilding-principles .mission {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+}
+
+#guilding-principles .mission h1 {
+  font-size: 50px;
 }
 
 #guilding-principles .vision .texts {
   font-family: 'Acme', sans-serif;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
-#guilding-principles .vision .texts img {
-  padding: 20px;
+#guilding-principles .vision .texts:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #e6e3df;
+}
+
+#guilding-principles .vision .texts h3 {
+  color: #f13939;
 }
 
 #guilding-principles .vision .texts .void {
@@ -258,13 +288,13 @@ header .nav-mobile.show {
   background-image: url(../Image/rf.jpg);
 }
 
-#history .our h2 {
+#history .our .col-12 h2 {
   font-family: 'Russo One', sans-serif;
   font-size: 45px;
 }
 
-#history .our p {
-  font-family: 'Geologica', sans-serif;
+#history .our .col-12 p {
+  font-family: 'Acme', sans-serif;
 }
 
 #management {
@@ -277,7 +307,7 @@ header .nav-mobile.show {
 }
 
 #management .row {
-  font-family: 'Bitter', serif;
+  font-family: 'Acme', sans-serif;
 }
 
 #management .row h4 {
@@ -288,23 +318,25 @@ header .nav-mobile.show {
   font-size: 20px;
 }
 
-footer {
-  padding: 50px 0;
+#footer-end {
+  padding: 80px 0;
+  background-color: #37138b;
 }
 
-footer .footer ul {
+#footer-end .end {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 @media only screen and (max-width: 768px) {
-  footer .footer ul {
+  #footer-end .end {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -312,12 +344,18 @@ footer .footer ul {
   }
 }
 
-footer .footer ul li a .fa-brands {
-  font-size: 30px;
-  color: black;
+#footer-end .end .name p {
+  color: white;
+  font-size: 20px;
+  font-family: 'Acme', sans-serif;
 }
 
-footer .footer ul li a .fa-brands:hover {
-  color: blue;
+#footer-end .end .icon .fa-brands {
+  font-size: 30px;
+  color: white;
+}
+
+#footer-end .end .icon .fa-brands:hover {
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */
