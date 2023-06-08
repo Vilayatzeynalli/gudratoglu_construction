@@ -1,0 +1,44 @@
+#our-team{
+    padding: 100px 0;
+    .title{
+        text-align: center;
+        font-family: 'Russo One', sans-serif;
+       h1{
+        font-size: 50px;
+       }
+    }
+    .our{
+        .team{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: 'Acme', sans-serif;
+            position: relative;
+            img{
+                width: 350px;
+                height: 300px;
+            }
+            a{
+                color: black;
+                &:hover{
+                    color: blue;
+                }
+            }
+            .card-body{
+                border: 1px solid white;
+                width: 250px;
+                background-color: white;
+                position: absolute;
+                top: 75%;
+                margin-left: 50px;
+            }
+            h4{
+            font-size: 25px;
+            }
+            .fa-brands{
+                font-size: 20px;
+            }
+        }
+    }
+
+}

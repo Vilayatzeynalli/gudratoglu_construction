@@ -21,7 +21,10 @@
 }
 
 header {
-  background-color: #000;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 header .header {
@@ -34,12 +37,19 @@ header .header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px 0;
+  padding: 20px 0;
+  font-family: 'Patua One';
+  font-size: 19px;
+}
+
+header .header img {
+  height: 60px;
+  width: 150px;
 }
 
 header .header .log a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 header .header .log a:hover {
@@ -48,7 +58,7 @@ header .header .log a:hover {
 }
 
 header .header .log .login {
-  border: 1px solid white;
+  border: 1px solid black;
   background-color: white;
   color: black;
   height: 30px;
@@ -67,7 +77,7 @@ header .header .logo {
 }
 
 header .header .language .fa-solid {
-  color: #fff;
+  color: #000;
   font-size: 20px;
 }
 
@@ -82,7 +92,7 @@ header .header nav ul {
 }
 
 header .header nav ul li a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -96,7 +106,7 @@ header .header #menu {
   display: none;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
   header .header nav {
     display: none;
   }
@@ -108,7 +118,7 @@ header .header #menu {
   }
   header .header #menu {
     display: block;
-    color: #fff;
+    color: #000;
   }
 }
 
@@ -117,7 +127,7 @@ header .nav-mobile {
 }
 
 header .nav-mobile nav .language .fa-solid {
-  color: #fff;
+  color: #000;
   font-size: 20px;
 }
 
@@ -141,7 +151,7 @@ header .nav-mobile nav ul {
 
 header .nav-mobile nav ul .log a {
   text-decoration: none;
-  color: white;
+  color: #000;
 }
 
 header .nav-mobile nav ul .log a:hover {
@@ -150,7 +160,7 @@ header .nav-mobile nav ul .log a:hover {
 }
 
 header .nav-mobile nav ul .log .login {
-  border: 1px solid white;
+  border: 1px solid black;
   background-color: white;
   color: black;
   height: 30px;
@@ -165,7 +175,7 @@ header .nav-mobile nav ul .log .login:hover {
 }
 
 header .nav-mobile nav ul li a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -180,7 +190,7 @@ header .nav-mobile.show {
 
 #core-values {
   padding: 50px 0;
-  background-image: url(../Image/group-male-architect-analyzing-blueprint46.jpg);
+  background-image: url(../Image/-min.jpg);
 }
 
 @media only screen and (max-width: 768px) {
@@ -194,6 +204,7 @@ header .nav-mobile.show {
 }
 
 #core-values .row .bg-img-1 .text {
+  color: #f8f4f4;
   position: relative;
 }
 
@@ -213,7 +224,7 @@ header .nav-mobile.show {
   right: 0;
   height: 12px;
   width: 250px;
-  background-color: #161679;
+  background-color: #d47a1f;
 }
 
 #core-values .row .bg-img-1 h6 {
@@ -225,11 +236,28 @@ header .nav-mobile.show {
 }
 
 #mission-vision {
-  padding: 100px 0;
+  padding: 70px 0;
+}
+
+#mission-vision .mission {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+}
+
+#mission-vision .mission h1 {
+  font-size: 50px;
 }
 
 #mission-vision .vision .texts {
   font-family: 'Acme', sans-serif;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+#mission-vision .vision .texts:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #e6e3df;
 }
 
 #mission-vision .vision .texts h3 {
@@ -278,6 +306,62 @@ header .nav-mobile.show {
   position: relative;
   top: -40px;
   left: 90px;
+}
+
+#our-team {
+  padding: 100px 0;
+}
+
+#our-team .title {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+}
+
+#our-team .title h1 {
+  font-size: 50px;
+}
+
+#our-team .our .team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Acme', sans-serif;
+  position: relative;
+}
+
+#our-team .our .team img {
+  width: 350px;
+  height: 300px;
+}
+
+#our-team .our .team a {
+  color: black;
+}
+
+#our-team .our .team a:hover {
+  color: blue;
+}
+
+#our-team .our .team .card-body {
+  border: 1px solid white;
+  width: 250px;
+  background-color: white;
+  position: absolute;
+  top: 75%;
+  margin-left: 50px;
+}
+
+#our-team .our .team h4 {
+  font-size: 25px;
+}
+
+#our-team .our .team .fa-brands {
+  font-size: 20px;
 }
 
 #about {
@@ -371,32 +455,6 @@ header .nav-mobile.show {
   margin-left: 20px;
 }
 
-#projects {
-  padding: 50px 0;
-}
-
-#projects .title {
-  text-align: center;
-  font-family: 'Kanit', sans-serif;
-}
-
-#projects .row .col-12 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-}
-
-#projects .row .col-12 .btn {
-  color: black;
-  font-size: 30px;
-}
-
 #phone {
   background-color: #dfd9d9;
   padding: 50px 0;
@@ -425,7 +483,7 @@ header .nav-mobile.show {
 #phone .row .col-12 a {
   text-decoration: none;
   color: black;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 #phone .row .col-12 a:hover {
@@ -433,7 +491,7 @@ header .nav-mobile.show {
 }
 
 #phone .row .col-12 img {
-  width: 340px;
+  width: 250px;
   height: 240px;
   border-radius: 100%;
 }

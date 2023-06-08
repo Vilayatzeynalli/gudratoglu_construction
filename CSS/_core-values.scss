@@ -1,12 +1,13 @@
 #core-values{
     padding: 50px 0;
-    background-image: url(../Image/group-male-architect-analyzing-blueprint46.jpg);
+    background-image: url(../Image/-min.jpg);
     @media only screen and (max-width:768px) {
         background-image: url(../Image/rf.jpg);
     }
     .row{
         .bg-img-1{
             .text{
+                color: rgb(248, 244, 244);
                 h6{
                     font-family: 'Pacifico', cursive;
                 }
@@ -22,7 +23,7 @@
                  right: 0;
                  height: 12px;
                  width: 250px;
-                 background-color: rgb(22, 22, 121);
+                 background-color: rgb(212, 122, 31);
 
                }
             }
