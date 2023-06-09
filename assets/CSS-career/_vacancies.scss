@@ -1,6 +1,26 @@
 #vacancies{
-    padding: 50px 0;
+    padding: 200px 0;
     h1{
         font-family: 'Russo One', sans-serif;
     }
+ .row{
+    transition: 0.7s;
+    padding: 30px 0;
+    border-radius: 5px;
+    font-family: 'Acme', sans-serif;
+    &:hover{
+        background-color: brown;
+        color: white;
+        img{
+            background-color: white;
+        }
+    }
+    .col-12{
+        img{
+            border: 1px solid black;
+            border-radius: 50%;
+            padding: 30px;
+        }
+    }
+ }
 }

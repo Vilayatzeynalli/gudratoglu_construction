@@ -25,6 +25,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 1;
+  top: 0;
 }
 
 header .header {
@@ -49,15 +50,8 @@ header .header {
 }
 
 header .header img {
-  height: 50px;
-  width: 200px;
-}
-
-@media only screen and (max-width: 768px) {
-  header .header img {
-    width: 100px;
-    height: 40px;
-  }
+  height: 60px;
+  width: 150px;
 }
 
 header .header .log a {
@@ -204,7 +198,7 @@ header .nav-mobile.show {
 }
 
 #core-values {
-  margin-top: 10px;
+  margin-top: 100px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -217,7 +211,11 @@ header .nav-mobile.show {
 }
 
 #core-values .carousel-caption {
-  top: 30%;
+  top: 20%;
+}
+
+#core-values .carousel-caption .text {
+  color: #fff;
 }
 
 #core-values .carousel-caption .text h6 {
@@ -232,11 +230,11 @@ header .nav-mobile.show {
 }
 
 #core-values .slider-2 {
-  top: 30%;
+  top: 20%;
 }
 
 #core-values .slider-2 .text {
-  color: white;
+  color: #fff;
 }
 
 #core-values .slider-2 .text h6 {

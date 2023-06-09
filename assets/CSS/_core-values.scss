@@ -1,5 +1,5 @@
 #core-values{
-  margin-top: 10px;
+  margin-top: 100px;
     @media only screen and (max-width:768px) {
         .carousel-control-prev{
             display: none;
@@ -9,8 +9,9 @@
         }
     }
     .carousel-caption{
-        top: 30%;
+        top: 20%;
        .text{
+        color: #fff;
       h6{
         font-size: 20px;
         letter-spacing: 5px;
@@ -23,9 +24,9 @@
        }
     }
     .slider-2{
-        top: 30%;
+        top: 20%;
         .text{
-            color: white;
+            color: #fff;
        h6{
          font-size: 20px;
          letter-spacing: 5px;
