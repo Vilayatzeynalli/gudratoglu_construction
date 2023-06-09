@@ -1,11 +1,12 @@
 #careers {
-  padding: 100px 0;
-  background-image: url();
+  padding: 250px 0;
+  background-image: url(/assets/Image/sfmin.jpg);
 }
 
 #careers h1 {
+  color: white;
   text-align: center;
-  font-size: 80px;
+  font-size: 90px;
   font-family: 'Russo One', sans-serif;
 }
 
@@ -25,9 +26,24 @@
   font-family: 'Acme', sans-serif;
 }
 
+@media only screen and (max-width: 700px) {
+  #careers ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 #career-info {
   padding: 100px 0;
   font-family: 'Acme', sans-serif;
+}
+
+@media only screen and (max-width: 992px) {
+  #career-info .col-12 img {
+    width: 350px;
+  }
 }
 
 #career-info .col-12 h2 {

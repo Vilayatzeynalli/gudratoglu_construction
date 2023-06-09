@@ -1,5 +1,5 @@
 #our-project {
-  padding: 200px 0;
+  padding: 250px 0;
   background-image: url(../Image/asd-min.jpg);
   text-align: center;
 }
@@ -120,5 +120,176 @@
     width: 350px;
     height: 200px;
   }
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+  font-family: 'Patua One';
+  font-size: 19px;
+}
+
+header .header img {
+  height: 60px;
+  width: 150px;
+}
+
+header .header .log a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Acme', sans-serif;
+}
+
+header .header .log a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+header .header .log .login {
+  font-family: 'Acme', sans-serif;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 50px;
+  border-radius: 6px;
+}
+
+header .header .log .login:hover {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+header .header .language .fa-solid {
+  color: #000;
+  font-size: 20px;
+}
+
+header .header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header nav ul li a {
+  font-family: 'Acme', sans-serif;
+  color: #000;
+  text-decoration: none;
+  font-family: 'Acme', sans-serif;
+}
+
+header .header nav ul li a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+header .header #menu {
+  color: #fff;
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  header .header nav {
+    display: none;
+  }
+  header .header .log {
+    display: none;
+  }
+  header .header .language {
+    display: none;
+  }
+  header .header #menu {
+    display: block;
+    color: #000;
+  }
+}
+
+header .nav-mobile {
+  display: none;
+}
+
+header .nav-mobile nav .language .fa-solid {
+  color: #000;
+  font-size: 20px;
+}
+
+header .nav-mobile nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+  font-family: 'Acme', sans-serif;
+}
+
+header .nav-mobile nav ul .log a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .nav-mobile nav ul .log a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+header .nav-mobile nav ul .log .login {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 50px;
+  border-radius: 6px;
+  font-family: 'Acme', sans-serif;
+}
+
+header .nav-mobile nav ul .log .login:hover {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+header .nav-mobile nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+header .nav-mobile nav ul li a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+header .nav-mobile.show {
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */

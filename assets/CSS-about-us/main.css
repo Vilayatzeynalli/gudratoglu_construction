@@ -5,6 +5,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 1;
+  top: 0;
 }
 
 header .header {
@@ -191,7 +192,8 @@ header .nav-mobile.show {
 }
 
 #about {
-  padding: 200px 0;
+  margin-top: 100px;
+  padding: 150px 0;
   background-image: url(../Image/65455min1.jpg);
   text-align: center;
 }
