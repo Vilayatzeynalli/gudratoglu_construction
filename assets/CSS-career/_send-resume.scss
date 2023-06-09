@@ -1,0 +1,34 @@
+#send-resume{
+    background-color: rgb(233, 231, 231);
+    padding: 100px 0;
+    font-family: 'Acme', sans-serif;
+    h1{
+        font-family: 'Russo One', sans-serif;
+    }
+    .row{
+    .col-12{
+        img{
+            border: 5px solid rgb(178, 116, 236);
+            padding: 100px;
+        }
+        a{
+            color: black;
+            border: 3px solid  rgb(178, 116, 236);
+            padding: 13px;
+            text-decoration: none;
+            border-radius: 30px;
+            &:hover{
+                background-color:  rgb(178, 116, 236);
+                color: white;
+            }
+        }
+    }
+}
+#submit{
+    background-color: blue;
+    color: white;
+    &:hover{
+        background-color: rgb(31, 161, 31);
+    }
+}
+}

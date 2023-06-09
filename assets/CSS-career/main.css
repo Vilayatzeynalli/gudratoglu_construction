@@ -64,4 +64,41 @@
   border-radius: 50%;
   padding: 30px;
 }
+
+#send-resume {
+  background-color: #e9e7e7;
+  padding: 100px 0;
+  font-family: 'Acme', sans-serif;
+}
+
+#send-resume h1 {
+  font-family: 'Russo One', sans-serif;
+}
+
+#send-resume .row .col-12 img {
+  border: 5px solid #b274ec;
+  padding: 100px;
+}
+
+#send-resume .row .col-12 a {
+  color: black;
+  border: 3px solid #b274ec;
+  padding: 13px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+#send-resume .row .col-12 a:hover {
+  background-color: #b274ec;
+  color: white;
+}
+
+#send-resume #submit {
+  background-color: blue;
+  color: white;
+}
+
+#send-resume #submit:hover {
+  background-color: #1fa11f;
+}
 /*# sourceMappingURL=main.css.map */
