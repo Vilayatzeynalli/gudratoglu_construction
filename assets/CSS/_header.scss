@@ -10,9 +10,16 @@ header {
       padding: 20px 0;
       font-family: 'Patua One';
       font-size: 19px;
+      @media only screen and (max-width:768px) {
+       padding: 10px;
+      }
       img{
-        height: 60px;
-        width: 150px;
+        height: 50px;
+        width: 200px;
+        @media only screen and (max-width:768px) {
+          width: 100px;
+          height: 40px;
+        }
       }
       .log{
        a{
