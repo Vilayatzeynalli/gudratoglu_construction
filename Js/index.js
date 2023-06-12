@@ -28,5 +28,3 @@ menuIcon.addEventListener("click", function () {
     : (this.classList = "fa-solid fa-bars");
 });
 
-
-
