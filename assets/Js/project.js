@@ -1,6 +1,7 @@
 let BASE="http://localhost:8000/apartments";
 const row=document.querySelector(".apartment");
 const inputSearch=document.querySelector("#inputSearch");
+const searchInput=document.querySelector("#searchInput");
 const sortBtn=document.querySelector("#sortBtn");
 const loadMore=document.querySelector("#loadMore");
 
@@ -30,6 +31,14 @@ axios(BASE).then((res)=>getAllData(res.data));
 inputSearch.addEventListener("input",function(e){
     axios(BASE).then((res)=>{
         let dataFilter=res.data.filter((item)=>item.address
+        .toLocaleLowerCase()
+        .includes(e.target.value.toLocaleLowerCase()));
+        getAllData(dataFilter);
+    });
+});
+searchInput.addEventListener("input",function(e){
+    axios(BASE).then((res)=>{
+        let dataFilter=res.data.filter((item)=>item.city
         .toLocaleLowerCase()
         .includes(e.target.value.toLocaleLowerCase()));
         getAllData(dataFilter);
