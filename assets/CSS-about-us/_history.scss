@@ -13,4 +13,26 @@
 
     }
 }
+.corporation{
+    .col-12{
+    position: relative;
+    h2{
+        font-size: 40px;
+        color: brown;
+        font-family: 'Russo One', sans-serif;
+    }
+    p{
+        font-family: 'Acme', sans-serif;
+    }
+    p::after{
+        content: "";
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background-color: rgb(163, 159, 159);
+    }
+    }
+}
 }

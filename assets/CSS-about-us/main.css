@@ -352,6 +352,30 @@ header .nav-mobile.show {
   font-family: 'Acme', sans-serif;
 }
 
+#history .corporation .col-12 {
+  position: relative;
+}
+
+#history .corporation .col-12 h2 {
+  font-size: 40px;
+  color: brown;
+  font-family: 'Russo One', sans-serif;
+}
+
+#history .corporation .col-12 p {
+  font-family: 'Acme', sans-serif;
+}
+
+#history .corporation .col-12 p::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #a39f9f;
+}
+
 #management {
   padding: 50px 0;
 }
