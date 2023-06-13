@@ -375,6 +375,8 @@ header .nav-mobile.show {
 #our-team .our .team img {
   width: 320px;
   height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #our-team .our .team a {
