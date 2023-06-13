@@ -1,14 +1,13 @@
 #our-project{
-    padding: 150px;
-    background-image: url(../Image/asd-min.jpg);
+    padding: 200px;
+    background-image: url(../Image/villalaguna1.jpg);
     text-align: center;
-    margin-top: 100px;
    h1{
     font-size: 80px;
     font-family: 'Russo One', sans-serif;
    }
    ul{
-    padding: 100px;
+    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +15,7 @@
     @media only screen and (max-width:568px){
         flex-direction: column;
     }
-    li{
+    li
         a{
             font-family: 'Acme', sans-serif;
         text-decoration: none;
@@ -29,4 +28,3 @@
         }
     }
    }
-}
