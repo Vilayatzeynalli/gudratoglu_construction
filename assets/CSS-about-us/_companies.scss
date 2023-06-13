@@ -1,0 +1,41 @@
+#companies{
+    padding: 100px 0;
+   .row{
+    font-family: 'Acme', sans-serif;
+    h2{
+        font-size: 25px;
+       }
+     .transport{
+        padding: 250px 10px;
+        transition: 0.9s;
+       &:hover{
+        color: white;
+        background-image: url(../Image/2akkord-transport.jpg);
+       }
+    }
+     .general{
+        padding: 250px 10px;
+        transition: 0.9s;
+       &:hover{
+        color: white;
+        background-image: url(../Image/1akkord-general-construction.jpg);
+       }
+    }
+     .hydraulic{
+        padding: 250px 10px;
+        transition: 0.9s;
+       &:hover{
+        color: white;
+        background-image: url(../Image/5akkord--mechanisms.jpg);
+       }
+    }
+     .hydrotechnical{
+        padding: 250px 10px;
+        transition: 0.9s;
+       &:hover{
+        color: white;
+        background-image: url(../Image/4akkord-hydrotechnical.jpg);
+       }
+    }
+   }
+}
