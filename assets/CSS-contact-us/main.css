@@ -264,6 +264,30 @@ header .nav-mobile.show {
   font-family: 'Acme', sans-serif;
 }
 
+#georgia {
+  padding: 100px 0;
+}
+
+#georgia .row .col-12 h2 {
+  font-size: 40px;
+  color: brown;
+  font-family: 'Russo One', sans-serif;
+}
+
+#georgia .row .col-12 h6 {
+  font-family: 'Acme', sans-serif;
+  font-size: 25px;
+}
+
+#georgia .row .col-12 span {
+  font-size: 14px;
+}
+
+#georgia .row .col-12 p {
+  font-size: 15px;
+  font-family: 'Acme', sans-serif;
+}
+
 #footer-end {
   padding: 80px 0;
   background-color: #37138b;
