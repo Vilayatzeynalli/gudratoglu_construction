@@ -74,8 +74,15 @@
     }
   ],
   "favorites": [
+    {},
     {
-     
+      "id": 2,
+      "photo": "./assets/Image/40101_5PwSV2akkFi-Ad7blIHu_Q.jpg",
+      "price": 350000,
+      "address": "Nizami M",
+      "grass": 2,
+      "square": 140,
+      "city": "Baku"
     }
   ]
 }
