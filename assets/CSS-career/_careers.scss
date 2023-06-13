@@ -1,9 +1,15 @@
 #careers{
     padding: 150px 0;
-    background-image: url(/assets/Image/sfmin.jpg);
+    background-image:linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),
+        url(/assets/Image/sfmin.jpg);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-top: 100px;
     h1{
-        color: white;
+        color: #fff;
         text-align: center;
         font-size: 90px;
         font-family: 'Russo One', sans-serif;

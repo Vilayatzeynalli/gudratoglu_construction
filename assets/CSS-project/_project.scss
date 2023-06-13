@@ -1,13 +1,20 @@
 #our-project{
-    padding: 200px;
-    background-image: url(../Image/-min.jpg);
+    padding: 250px;
+    background-image:linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.3)),
+         url(../Image/-min.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
    h1{
+    color: #fff;
     font-size: 80px;
     font-family: 'Russo One', sans-serif;
    }
    ul{
-    padding: 50px;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;

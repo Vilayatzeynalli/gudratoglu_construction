@@ -1,9 +1,12 @@
 #footer-top{
-    background-image: url(../Image/vbvbvb-min.jpg);
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)), url(../Image/vbvbvb-min.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     padding: 70px 0;
-    @media only screen and (max-width:768px) {
-        background-image: url(../Image/rf.jpg);
-    }
    .contacts{
     border: 1px solid antiquewhite;
     background-color: antiquewhite;

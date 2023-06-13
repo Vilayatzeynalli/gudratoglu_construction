@@ -194,11 +194,16 @@ header .nav-mobile.show {
 #about {
   margin-top: 100px;
   padding: 150px 0;
-  background-image: url(../Image/65455min1.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.6))), url(../Image/65455min1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../Image/65455min1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
 #about h1 {
+  color: #fff;
   font-size: 80px;
   font-family: 'Russo One', sans-serif;
 }

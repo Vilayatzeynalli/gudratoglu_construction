@@ -282,7 +282,11 @@ header .nav-mobile.show {
 }
 
 #residential {
-  background-image: url(../Image/pexels-photo-325185.jpeg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.2))), url(../Image/pexels-photo-325185.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../Image/pexels-photo-325185.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: 'Lobster';
 }
 
@@ -524,14 +528,12 @@ header .nav-mobile.show {
 }
 
 #footer-top {
-  background-image: url(../Image/vbvbvb-min.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../Image/vbvbvb-min.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Image/vbvbvb-min.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 70px 0;
-}
-
-@media only screen and (max-width: 768px) {
-  #footer-top {
-    background-image: url(../Image/rf.jpg);
-  }
 }
 
 #footer-top .contacts {
