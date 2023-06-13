@@ -1,7 +1,8 @@
 #our-project {
-  padding: 250px 0;
+  padding: 150px;
   background-image: url(../Image/asd-min.jpg);
   text-align: center;
+  margin-top: 100px;
 }
 
 #our-project h1 {
