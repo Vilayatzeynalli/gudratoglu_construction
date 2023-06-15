@@ -15,7 +15,7 @@
         </div><br><br>
         <ul>
             <li><i class="fa-solid fa-user"></i>&nbsp; <a href="">Profile</a></li><br>
-            <li><i class="fa-solid fa-envelope"></i>&nbsp; <a href="">Mail Box</a></li><br>
+            <li><i class="fa-regular fa-square-plus fa-solid"></i>&nbsp; <a href="./add.html">Add an Ad</a></li><br>
             <li><i class="fa-solid fa-circle-info"></i>&nbsp; <a href="">Help</a></li><br>
             <li><i class="fa-solid fa-gear"></i>&nbsp; <a href="">Settings</a></li><br>
             <li><i class="fa-solid fa-right-from-bracket"></i>&nbsp; <a href="">Log Out</a></li>
@@ -27,7 +27,7 @@
         <div class="header">
             <div class="nav">
                 <div class="search">
-                    <input type="text" placeholder="Search..">
+                    <input class="inputSearch" type="text" placeholder="Search..">
                     <button type="submit"><img src="./assets/Image/search.png" alt=""></button>
                 </div>
                 <div class="user">
@@ -38,9 +38,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div><br><br><br><br><br>
         <div class="content">
-            <div class="cards">
+            <!-- <div class="cards">
                 <div class="card">
                     <div class="box">
                         <h1>2194</h1>
@@ -68,7 +68,7 @@
                             <img src="./assets/Image/students.png" alt="">
                         </div>
                     </div>
-            </div>
+            </div> -->
             <div class="content-2">
                 <div class="recent-payments">
                     <div class="title">
@@ -76,8 +76,8 @@
                         <a href="" class="btn">View All</a>
                     </div>
                     <table>
-                        <tr>
-                            <th>Id</th>
+                        <thead>
+                            <!-- <th>Id</th> -->
                             <th>Photo</th>
                             <th>Price</th>
                             <th>Address</th>
@@ -85,8 +85,9 @@
                             <th>Square</th>
                             <th>City</th>
                             <th>Option</th>
-                        </tr>
-                        <tr>
+                        </thead>
+                       <tbody>
+                        <!-- <tr>
                             <td>1</td>
                             <td><img src="./assets/Image/35650_JbvWmzK9tdNpM0v_9vTxOA.jpg" alt=""></td>
                             <td>200000</td>
@@ -97,7 +98,8 @@
                             <td><a href=""><i class="fa-solid fa-trash-can"></i></a>
                             <a href=""><i class="fa-solid fa-pen-to-square"></i></a>
                         </td>
-                        </tr>
+                        </tr> -->
+                       </tbody>
                     </table>
                 </div>
                 <!-- <div class="new-students">
@@ -121,5 +123,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/Js/admin-dashboard.js"></script>
 </body>
 </html>

@@ -15,7 +15,7 @@ form.addEventListener("submit",function(e){
     e.preventDefault();
     let card={
         id:Date.now(),
-        photo:inputFile.value,
+        photo:`./assets/Image/${inputFile.value.split("\\")[2]}`,
         price:inputNumber.value,
         address:inputAddress.value,
         grass:inputGrassy.value,
@@ -30,7 +30,8 @@ form.addEventListener("submit",function(e){
         },
         body:JSON.stringify(card),
     }).then(()=>{
-        window.location.href="./project.html"
+        window.location.href="./project.html",
+        window.location.href="./admin-dashboard.html"
     })
     }else{
         fetch(`http://localhost:8000/apartments/${id}`,{
@@ -40,7 +41,8 @@ form.addEventListener("submit",function(e){
         },
         body:JSON.stringify(card),
     }).then(()=>{
-        window.location.href="./projects.html"
+        window.location.href="./projects.html",
+        window.location.href="./admin-dashboard.html"
     }) 
     }
 });

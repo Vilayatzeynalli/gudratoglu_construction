@@ -49,6 +49,9 @@ tr,td,img{
     width: 40px;
     height: 40px;
 }
+tbody tr td a{
+    color: black;
+}
 .side-menu{
     position: fixed;
     background: rgb(113, 113, 248);
