@@ -10,6 +10,17 @@ const addBtn=document.querySelector("#addBtn");
 const id=new URLSearchParams(window.location.search).get("id");
 let BASE="http://localhost:8000/apartments";
 
+if (id){
+    addBtn.innerHTML="EDIT";
+
+    axios(`${BASE}/${id}`).then((res)=>{
+        inputNumber.value=res.data.price;
+        inputAddress.value=res.data.address;
+        inputGrassy.value=res.data.grass;
+        inputSquare.value=res.data.square;
+        inputCity.value=res.data.city;
+    })
+}
 
 form.addEventListener("submit",function(e){
     e.preventDefault();

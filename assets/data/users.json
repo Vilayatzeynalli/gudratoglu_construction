@@ -2,11 +2,11 @@
   "apartments": [
     {
       "id": 1,
-      "photo": "./assets/Image/35670_hg6mDlzCNl9hIeJgk6PjxA.jpg",
-      "price": 550000,
-      "address": "Academy of Sciences M",
-      "grass": 3,
-      "square": 162,
+      "photo": "./assets/Image/40101_5PwSV2akkFi-Ad7blIHu_Q.jpg",
+      "price": "112000",
+      "address": "Academy of Sciences ",
+      "grass": "4",
+      "square": "160",
       "city": "Baku"
     },
     {
@@ -43,15 +43,6 @@
       "address": "Nesimi",
       "grass": 2,
       "square": 110,
-      "city": "Baku"
-    },
-    {
-      "id": 7,
-      "photo": "./assets/Image/35669_C4Z-GJmanZmZpHZL82g1uw.jpg",
-      "price": 395000,
-      "address": "Yasamal",
-      "grass": 3,
-      "square": 115,
       "city": "Baku"
     },
     {

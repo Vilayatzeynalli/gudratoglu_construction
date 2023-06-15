@@ -199,6 +199,7 @@ h1{
 label{
     font-family: 'Acme', sans-serif;
     color: white;
+    font-size: 20px;
 }
 input{
     font-family: 'Acme', sans-serif;
