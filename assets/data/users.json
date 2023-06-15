@@ -71,6 +71,15 @@
       "grass": "3",
       "square": "120",
       "city": "Baku"
+    },
+    {
+      "id": 1686831576046,
+      "photo": "./assets/Image/40071_YThZPCwIVX84I8onc0WlGA.jpg",
+      "price": "100000",
+      "address": "Inshaatcilar M",
+      "grass": "3",
+      "square": "138",
+      "city": "Baku"
     }
   ],
   "favorites": [

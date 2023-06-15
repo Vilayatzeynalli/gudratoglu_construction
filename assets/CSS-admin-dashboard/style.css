@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit&family=Montserrat:wght@200;400&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans&family=Kanit&family=Lilita+One&family=Montserrat:wght@200;400&family=Pacifico&family=Russo+One&display=swap");
 *{
     margin: 0;
     padding: 0;
@@ -16,8 +18,9 @@ li{
 li a{
     color: white;
 }
-h1,h2{
+h1{
     color: #000;
+    font-family: 'Russo One', sans-serif;
 }
 .btn{
     background: rgb(113, 113, 248);
@@ -41,9 +44,18 @@ h1,h2{
 table{
     padding: 10px;
 }
+a{
+    font-family: 'Acme', sans-serif;
+}
 th,td{
     text-align: left;
     padding: 8px;
+}
+h2{
+    font-family: 'Acme', sans-serif;
+}
+th{
+    font-family: 'Acme', sans-serif;
 }
 tr,td,img{
     width: 40px;
