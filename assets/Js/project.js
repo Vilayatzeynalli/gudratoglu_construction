@@ -4,9 +4,9 @@ const inputSearch=document.querySelector("#inputSearch");
 const searchInput=document.querySelector("#searchInput");
 const sortBtn=document.querySelector("#sortBtn");
 const loadMore=document.querySelector("#loadMore");
-let searchData=[]
-let allData=[]
-let maxLength=4
+// let searchData=[]
+// let allData=[]
+// let maxLength=4
 
 // {/* <a href="./details.html?id=${element.id}" class="btn"><i class="fa-solid fa-circle-info"></i></a> */}
 

@@ -74,24 +74,6 @@
     }
   ],
   "favorites": [
-    {},
-    {
-      "id": 2,
-      "photo": "./assets/Image/40101_5PwSV2akkFi-Ad7blIHu_Q.jpg",
-      "price": 350000,
-      "address": "Nizami M",
-      "grass": 2,
-      "square": 140,
-      "city": "Baku"
-    },
-    {
-      "id": 1,
-      "photo": "./assets/Image/35670_hg6mDlzCNl9hIeJgk6PjxA.jpg",
-      "price": 550000,
-      "address": "Academy of Sciences M",
-      "grass": 3,
-      "square": 162,
-      "city": "Baku"
-    }
+
   ]
 }
