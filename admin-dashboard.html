@@ -6,22 +6,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/CSS-admin-dashboard/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="side-menu">
         <div class="brand-name">
             <h1>Brand</h1>
-        </div>
+        </div><br><br>
         <ul>
-            <li><img src="./assets/Image/dashboard (2).png" alt=""> Dashboard</li>
-            <li><img src="./assets/Image/reading-book (1).png" alt=""> Dashboard</li>
-            <li><img src="./assets/Image/teacher2.png" alt=""> Dashboard</li>
-            <li><img src="./assets/Image/school.png" alt=""> Dashboard</li>
-            <li><img src="./assets/Image/payment.png" alt=""> Dashboard</li>
-            <li><img src="./assets/Image/help-web-button.png" alt=""> Help</li>
-            <li><img src="./assets/Image/settings.png" alt=""> Settings</li>
+            <li><i class="fa-solid fa-user"></i>&nbsp; <a href="">Profile</a></li><br>
+            <li><i class="fa-solid fa-envelope"></i>&nbsp; <a href="">Mail Box</a></li><br>
+            <li><i class="fa-solid fa-circle-info"></i>&nbsp; <a href="">Help</a></li><br>
+            <li><i class="fa-solid fa-gear"></i>&nbsp; <a href="">Settings</a></li><br>
+            <li><i class="fa-solid fa-right-from-bracket"></i>&nbsp; <a href="">Log Out</a></li>
+
+
         </ul>
     </div>
-    
+    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                    <button type="submit"><img src="./assets/Image/search.png" alt=""></button>
+                </div>
+                <div class="user">
+                    <a href="#" class="btn">Add New</a>
+                    <img src="./assets/Image/notifications.png" alt="">
+                    <div class="img-case">
+                        <img src="./assets/Image/user.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <div class="card">
+                    <div class="box">
+                        <h1>2194</h1>
+                        <h3>Apartments</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="./assets/Image/students.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>2194</h1>
+                        <h3>Students</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="./assets/Image/students.png" alt="">
+                    </div>
+                </div>
+                    <div class="card">
+                        <div class="box">
+                            <h1>2194</h1>
+                            <h3>Students</h3>
+                        </div>
+                        <div class="icon-case">
+                            <img src="./assets/Image/students.png" alt="">
+                        </div>
+                    </div>
+            </div>
+            <div class="content-2">
+                <div class="recent-payments">
+                    <div class="title">
+                        <h2>Recent Payments</h2>
+                        <a href="" class="btn">View All</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Id</th>
+                            <th>Photo</th>
+                            <th>Price</th>
+                            <th>Address</th>
+                            <th>Grass</th>
+                            <th>Square</th>
+                            <th>City</th>
+                            <th>Option</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td><img src="./assets/Image/35650_JbvWmzK9tdNpM0v_9vTxOA.jpg" alt=""></td>
+                            <td>200000</td>
+                            <td>Academy Of Science</td>
+                            <td>4 Grassy</td>
+                            <td>149 Kv.m</td>
+                            <td>Baku</td>
+                            <td><a href=""><i class="fa-solid fa-trash-can"></i></a>
+                            <a href=""><i class="fa-solid fa-pen-to-square"></i></a>
+                        </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- <div class="new-students">
+                    <div class="title">
+                        <h2>New Students</h2>
+                        <a href="" class="btn">View All</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Profile</th>
+                            <th>Name</th>
+                            <th>Option</th>
+                        </tr>
+                        <tr>
+                            <td><img src="./assets/Image/user.png" alt=""></td>
+                            <td>John steve doe</td>
+                            <td><img src="./assets/Image/info.png" alt=""></td>
+                        </tr>
+                    </table>
+                </div> -->
+            </div>
+        </div>
+    </div>
 </body>
 </html>
