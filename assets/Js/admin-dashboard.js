@@ -3,7 +3,7 @@ const tbody=document.querySelector("tbody");
 const  inputSearch=document.querySelector(".inputSearch");
 
  function getData(array) {
-    console.log("arr", array);
+    // console.log("arr", array);
     tbody.innerHTML="";
     array.forEach(element => {
         tbody.innerHTML+=`

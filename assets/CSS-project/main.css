@@ -1,7 +1,8 @@
 #our-project {
-  padding: 250px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.3))), url(../Image/project-cover.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../Image/project-cover.jpg);
+  margin-top: 100px;
+  padding: 150px 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.3))), url(../Image/project-cover.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../Image/project-cover.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,8 +38,7 @@
   }
 }
 
-#our-project ul li
-a {
+#our-project ul li a {
   font-family: 'Acme', sans-serif;
   text-decoration: none;
   color: white;
@@ -46,8 +46,7 @@ a {
   border-radius: 7px;
 }
 
-#our-project ul li
-a:hover {
+#our-project ul li a:hover {
   color: black;
 }
 
@@ -90,11 +89,16 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  position: relative;
 }
 
 #projects .row .col-12 .btn {
+  position: absolute;
+  margin-top: -365px;
+  margin-left: 80px;
   color: black;
   font-size: 30px;
+  color: white;
 }
 
 #roads {

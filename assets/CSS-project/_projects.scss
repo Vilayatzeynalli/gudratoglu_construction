@@ -10,9 +10,14 @@
             justify-content: space-around;
             align-items: center;
             text-align: center;
+            position: relative;
             .btn{
+                position: absolute;
+               margin-top: -365px;
+               margin-left: 80px;
                 color: black;
                 font-size: 30px;
+                color: white;
             }
         }
     }

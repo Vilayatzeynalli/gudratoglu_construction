@@ -2,7 +2,7 @@ let form = document.querySelector("#form");
 let userName = document.querySelector("#username");
 let password = document.querySelector("#password");
 let password2 = document.querySelector("#password2");
-const BASE_URL = "http://localhost:3000/admin";
+const BASE_URL = "http://localhost:3000/users";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -11,7 +11,7 @@ form.addEventListener("submit", async (e) => {
   let data = await res.data;
   data.forEach((obj) => {
     if (obj.userName == userName.value && obj.password == password.value) {
-      window.location = "adminDashboard.html";
+      window.location = "admin-dashboard.html";
     }
   });
 });
