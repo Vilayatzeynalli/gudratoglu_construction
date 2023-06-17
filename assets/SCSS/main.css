@@ -447,9 +447,22 @@ header .nav-mobile.show {
   font-size: 30px;
 }
 
+#about .all-card .about {
+  overflow: hidden;
+  overflow-wrap: normal;
+}
+
 #about .all-card .about img {
+  border: 1px solid bisque;
   width: 500px;
   height: 340px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+#about .all-card .about img:hover {
+  -webkit-transform: scale(1.09);
+          transform: scale(1.09);
 }
 
 @media only screen and (max-width: 992px) {
