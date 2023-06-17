@@ -14,28 +14,49 @@
         padding: 250px 10px;
        &:hover{
         color: white;
-        background-image: url(../Image/2akkord-transport.jpg);
+        background-image:
+        linear-gradient(
+        rgba(0.2,0,0,0.3),
+        rgba(0.2,0,0,0.6)), url(../Image/2akkord-transport.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
        }
     }
      .general{
         padding: 250px 10px;
        &:hover{
         color: white;
-        background-image: url(../Image/1akkord-general-construction.jpg);
+        background-image:linear-gradient(
+         rgba(0.2,0,0,0.3),
+         rgba(0.2,0,0,0.6)), url(../Image/1akkord-general-construction.jpg);
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
        }
     }
      .hydraulic{
         padding: 250px 10px;
      &:hover{
         color: white;
-        background-image: url(../Image/5akkord--mechanisms.jpg);
+        background-image:linear-gradient(
+         rgba(0.2,0,0,0.3),
+         rgba(0.2,0,0,0.6)), url(../Image/5akkord--mechanisms.jpg);
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
        }
     }
      .hydrotechnical{
         padding: 250px 10px;
        &:hover{
         color: white;
-        background-image: url(../Image/4akkord-hydrotechnical.jpg);
+        background-image:linear-gradient(
+         rgba(0.2,0,0,0.3),
+         rgba(0.2,0,0,0.6)), url(../Image/4akkord-hydrotechnical.jpg);
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
        }
     }
    }

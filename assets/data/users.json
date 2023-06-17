@@ -109,6 +109,15 @@
       "grass": 1,
       "square": 51,
       "city": "Baku"
+    },
+    {
+      "id": 1,
+      "photo": "./assets/Image/40101_5PwSV2akkFi-Ad7blIHu_Q.jpg",
+      "price": "112000",
+      "address": "Academy of Sciences ",
+      "grass": "4",
+      "square": "160",
+      "city": "Baku"
     }
   ]
 }

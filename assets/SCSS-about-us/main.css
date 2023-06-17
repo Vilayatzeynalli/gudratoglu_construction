@@ -333,7 +333,11 @@ header .nav-mobile.show {
 
 #companies .row .transport:hover {
   color: white;
-  background-image: url(../Image/2akkord-transport.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.6))), url(../Image/2akkord-transport.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../Image/2akkord-transport.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #companies .row .general {
@@ -342,7 +346,11 @@ header .nav-mobile.show {
 
 #companies .row .general:hover {
   color: white;
-  background-image: url(../Image/1akkord-general-construction.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.6))), url(../Image/1akkord-general-construction.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../Image/1akkord-general-construction.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #companies .row .hydraulic {
@@ -351,7 +359,11 @@ header .nav-mobile.show {
 
 #companies .row .hydraulic:hover {
   color: white;
-  background-image: url(../Image/5akkord--mechanisms.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.6))), url(../Image/5akkord--mechanisms.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../Image/5akkord--mechanisms.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #companies .row .hydrotechnical {
@@ -360,7 +372,11 @@ header .nav-mobile.show {
 
 #companies .row .hydrotechnical:hover {
   color: white;
-  background-image: url(../Image/4akkord-hydrotechnical.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.6))), url(../Image/4akkord-hydrotechnical.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../Image/4akkord-hydrotechnical.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #history {
