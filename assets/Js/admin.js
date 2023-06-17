@@ -1,3 +1,4 @@
+
 let form = document.querySelector("#form");
 let userName = document.querySelector("#username");
 let password = document.querySelector("#password");
@@ -56,9 +57,9 @@ const validateInputs = () => {
 };
 
 
-// const username = document.getElementById('#username');
-// const password = document.getElementById('#password');
-// const form = document.getElementById('form');
+// // const username = document.getElementById('#username');
+// // const password = document.getElementById('#password');
+// // const form = document.getElementById('form');
 // const errorElement = document.getElementById('error');
 
 // form.addEventListener('submit', (e) => {
