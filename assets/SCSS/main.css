@@ -383,6 +383,8 @@ header .nav-mobile.show {
   height: 280px;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-box-shadow: 5px 1px 2px 3px black;
+          box-shadow: 5px 1px 2px 3px black;
 }
 
 #our-team .our .team a {
@@ -400,6 +402,8 @@ header .nav-mobile.show {
   position: absolute;
   top: 75%;
   margin-left: 35px;
+  -webkit-box-shadow: 2px 1px 2px 2px black;
+          box-shadow: 2px 1px 2px 2px black;
 }
 
 #our-team .our .team h4 {
