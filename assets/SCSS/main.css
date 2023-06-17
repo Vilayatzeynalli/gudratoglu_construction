@@ -364,6 +364,10 @@ header .nav-mobile.show {
   font-size: 50px;
 }
 
+#our-team .our {
+  padding: 50px 0;
+}
+
 #our-team .our .team {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -375,7 +379,7 @@ header .nav-mobile.show {
           align-items: center;
   font-family: 'Acme', sans-serif;
   position: relative;
-  padding: 30px 0;
+  padding: 25px 0;
 }
 
 #our-team .our .team img {
@@ -440,15 +444,15 @@ header .nav-mobile.show {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  font-family: 'Acme', sans-serif;
 }
 
 #about .all-card .col-12 {
   text-align: center;
-  font-family: 'Acme', sans-serif;
 }
 
 #about .all-card .col-12 h4 {
-  font-size: 30px;
+  font-size: 45px;
 }
 
 #about .all-card .about {
@@ -482,11 +486,15 @@ header .nav-mobile.show {
 
 #architectural-agency .filter {
   text-align: center;
-  font-family: 'Russo One', sans-serif;
 }
 
 #architectural-agency .filter h1 {
+  font-family: 'Russo One', sans-serif;
   font-size: 50px;
+}
+
+#architectural-agency .filter p {
+  font-family: 'Acme', sans-serif;
 }
 
 #architectural-agency .sky {
@@ -562,7 +570,7 @@ header .nav-mobile.show {
 
 #phone {
   background-color: #dfd9d9;
-  padding: 50px 0;
+  padding: 70px 0;
 }
 
 #phone .row {
@@ -574,11 +582,10 @@ header .nav-mobile.show {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: white;
 }
 
 #phone .row .col-12 {
-  font-size: 22px;
+  font-size: 25px;
   font-family: 'Acme', sans-serif;
 }
 
@@ -589,7 +596,7 @@ header .nav-mobile.show {
 #phone .row .col-12 a {
   text-decoration: none;
   color: black;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #phone .row .col-12 a:hover {
@@ -608,7 +615,7 @@ header .nav-mobile.show {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 70px 0;
+  padding: 200px 0;
 }
 
 #footer-top .contacts {
@@ -622,32 +629,6 @@ header .nav-mobile.show {
 #footer-top .contacts h1 {
   font-size: 50px;
   font-family: 'Russo One', sans-serif;
-}
-
-#footer-top .contacts .col-12 {
-  text-align: center;
-  font-family: 'Acme', sans-serif;
-}
-
-#footer-top .contacts .col-12 input {
-  height: 50px;
-  width: 400px;
-  border-radius: 7px;
-  background-color: #ebe9e9;
-}
-
-#footer-top .contacts .col-12 button {
-  height: 50px;
-  width: 100px;
-  background-color: blue;
-  color: white;
-  border-radius: 7px;
-  border: none;
-}
-
-#footer-top .contacts .col-12 button:hover {
-  background-color: green;
-  color: white;
 }
 
 #footer-top .call {
@@ -664,10 +645,10 @@ header .nav-mobile.show {
 
 #footer-top .call .call-us {
   background-color: #050569;
-  padding: 20px 10px;
+  padding: 35px 30px;
   color: white;
   border: none;
-  height: 160px;
+  height: 200px;
   width: 350px;
   color: white;
   -webkit-transition: 0.8s;
@@ -693,7 +674,23 @@ header .nav-mobile.show {
   background-color: #37138b;
 }
 
+#footer-end hr {
+  color: white;
+  height: 3px;
+}
+
+#footer-end .icon {
+  text-align: center;
+  font-size: 35px;
+}
+
+#footer-end .icon a {
+  color: white;
+}
+
 #footer-end .end {
+  color: white;
+  font-family: 'Acme', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -703,21 +700,61 @@ header .nav-mobile.show {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   #footer-end .end {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    text-align: center;
   }
 }
 
-#footer-end .end .name p {
+#footer-end .end .home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  #footer-end .end .home {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
+#footer-end .end .home h3 {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+  #footer-end .end .logo {
+    text-align: center;
+  }
+}
+
+#footer-end .end .logo img {
+  width: 230px;
+  height: 70px;
+}
+
+#footer-end .end .logo p {
+  width: 300px;
   color: white;
   font-size: 20px;
-  font-family: 'Acme', sans-serif;
 }
 
 #footer-end .end .icon .fa-brands {

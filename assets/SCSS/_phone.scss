@@ -1,13 +1,12 @@
 #phone{
     background-color: rgb(223, 217, 217);
-    padding: 50px 0;
+    padding: 70px 0;
     .row{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: white;
         .col-12{
-            font-size: 22px;
+            font-size: 25px;
             font-family: 'Acme', sans-serif;
             .fa-solid{
                 font-size: 25px;
@@ -15,7 +14,7 @@
             a{
                 text-decoration: none;
                 color: black;
-                font-size: 25px;
+                font-size: 30px;
                 &:hover{
                     color: blue;
                 }

@@ -8,13 +8,14 @@
        }
     }
     .our{
+        padding: 50px 0;
         .team{
             display: flex;
             justify-content: space-around;
             align-items: center;
             font-family: 'Acme', sans-serif;
             position: relative;
-            padding: 30px 0;
+            padding: 25px 0;
             img{
                 width: 320px;
                 height: 280px;

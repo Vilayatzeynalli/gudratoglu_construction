@@ -2,9 +2,12 @@
     padding: 50px 0;
     .filter{
         text-align: center;
-        font-family: 'Russo One', sans-serif;
         h1{
+         font-family: 'Russo One', sans-serif;
          font-size: 50px;
+        }
+        p{
+         font-family: 'Acme', sans-serif;
         }
     }
     .sky{display: flex;

@@ -1,18 +1,53 @@
 #footer-end{
     padding: 80px 0;
     background-color: rgb(55, 19, 139);
+    hr{
+        color: white;
+        height: 3px;
+    }
+    .icon{
+        text-align: center;
+        font-size: 35px;
+        a{
+            color: white;
+        }
+    }
     .end{
+        color: white;
+        font-family: 'Acme', sans-serif;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        @media only screen and (max-width:768px) {
+        text-align: center  ;
+        @media only screen and (max-width:992px) {
             flex-direction: column;
+            text-align: center  ;
         }
-        .name{    
+        .home{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 20px;
+            @media only screen and (max-width:992px) {
+                flex-direction: column;
+                text-align: center;
+            }
+            h3{
+                font-size: 30px;
+            }
+        }
+        .logo{  
+            @media only screen and (max-width:992px) {
+                text-align: center;
+            }
+            img{
+                width: 230px;
+            height: 70px;
+            }  
         p{
+            width: 300px;
             color: white;
             font-size: 20px;
-            font-family: 'Acme', sans-serif;
         }
         }
     .icon{
