@@ -375,6 +375,7 @@ header .nav-mobile.show {
           align-items: center;
   font-family: 'Acme', sans-serif;
   position: relative;
+  padding: 30px 0;
 }
 
 #our-team .our .team img {
@@ -406,7 +407,15 @@ header .nav-mobile.show {
 }
 
 #our-team .our .team .fa-brands {
-  font-size: 20px;
+  font-size: 22px;
+  padding: 0 5px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+#our-team .our .team .fa-brands:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #about {
