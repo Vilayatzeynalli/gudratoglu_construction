@@ -210,6 +210,11 @@ header .nav-mobile.show {
   }
 }
 
+#core-values .carousel-item img {
+  -webkit-box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6);
+          box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6);
+}
+
 #core-values .carousel-caption {
   top: 20%;
 }
@@ -224,7 +229,7 @@ header .nav-mobile.show {
 }
 
 #core-values .carousel-caption .text h1 {
-  font-size: 60px;
+  font-size: 70px;
   font-family: 'Russo One', sans-serif;
   letter-spacing: 5px;
 }
@@ -243,7 +248,7 @@ header .nav-mobile.show {
 }
 
 #core-values .slider-2 .text h1 {
-  font-size: 60px;
+  font-size: 70px;
   font-family: 'Russo One', sans-serif;
   letter-spacing: 5px;
 }

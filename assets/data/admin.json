@@ -1,14 +1,8 @@
 {
     "users":[
         {
-            "id":1,
             "username":"Zeynalli",
-            "password":7654321
-        },
-        {
-            "id":2,
-            "username":"Vilayat",
-            "password":9876543
+            "password":"neni08"
         }
     ]
 }
