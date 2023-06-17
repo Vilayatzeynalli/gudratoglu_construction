@@ -1,8 +1,82 @@
 {
     "users":[
         {
-            "username":"Zeynalli",
-            "password":"neni08"
+            "username":"Vilayat",
+            "password":"vilayat030"
         }
-    ]
+    ],
+    "apartments": [
+        {
+          "id": 1,
+          "photo": "./assets/Image/40101_5PwSV2akkFi-Ad7blIHu_Q.jpg",
+          "price": "112000",
+          "address": "Academy of Sciences ",
+          "grass": "4",
+          "square": "160",
+          "city": "Baku"
+        },
+        {
+          "id": 2,
+          "photo": "./assets/Image/40101_5PwSV2akkFi-Ad7blIHu_Q.jpg",
+          "price": 350000,
+          "address": "Nizami M",
+          "grass": 2,
+          "square": 140,
+          "city": "Baku"
+        },
+        {
+          "id": 3,
+          "photo": "./assets/Image/35650_JbvWmzK9tdNpM0v_9vTxOA.jpg",
+          "price": 550000,
+          "address": "Neftchliar M",
+          "grass": 3,
+          "square": 174,
+          "city": "Baku"
+        },
+        {
+          "id": 5,
+          "photo": "./assets/Image/40071_YThZPCwIVX84I8onc0WlGA.jpg",
+          "price": 360000,
+          "address": "Yasamal",
+          "grass": 4,
+          "square": 97,
+          "city": "Baku"
+        },
+        {
+          "id": 6,
+          "photo": "./assets/Image/31239_PWh946XjP9RGj13Ca1Ctgg.jpg",
+          "price": 244000,
+          "address": "Nesimi",
+          "grass": 2,
+          "square": 110,
+          "city": "Baku"
+        },
+        {
+          "id": 8,
+          "photo": "./assets/Image/65704_ySiApUQ9SWE-heCS6Ouz8A.jpg",
+          "price": 127000,
+          "address": "Koroghlu M",
+          "grass": 1,
+          "square": 51,
+          "city": "Baku"
+        },
+        {
+          "id": 1686830234701,
+          "photo": "./assets/Image/40101_5PwSV2akkFi-Ad7blIHu_Q.jpg",
+          "price": "150000",
+          "address": "28 May M",
+          "grass": "3",
+          "square": "120",
+          "city": "Baku"
+        },
+        {
+          "id": 1686835971384,
+          "photo": "./assets/Image/31239_PWh946XjP9RGj13Ca1Ctgg.jpg",
+          "price": "100000",
+          "address": "Cefer Cabbarli M",
+          "grass": "3",
+          "square": "150",
+          "city": "Baku"
+        }
+      ]
 }
