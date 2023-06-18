@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit&family=Montserrat:wght@200;400&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans&family=Kanit&family=Lilita+One&family=Montserrat:wght@200;400&family=Pacifico&family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Cinzel:wght@500&family=Fira+Sans&family=Josefin+Sans&family=Kanit&family=Lilita+One&family=Lobster&family=Lobster+Two:wght@700&family=Merriweather:ital,wght@1,400;1,700&family=Montserrat:wght@200;400&family=Pacifico&family=Patua+One&family=Play:wght@700&family=Russo+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -671,98 +672,40 @@ header .nav-mobile.show {
 
 #footer-end {
   padding: 80px 0;
-  background-color: #37138b;
-}
-
-#footer-end hr {
-  color: white;
-  height: 3px;
-}
-
-#footer-end .icon {
-  text-align: center;
-  font-size: 35px;
-}
-
-#footer-end .icon a {
-  color: white;
+  background-color: #222224;
 }
 
 #footer-end .end {
   color: white;
-  font-family: 'Acme', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
+  font-family: 'Play', sans-serif;
 }
 
-@media only screen and (max-width: 992px) {
-  #footer-end .end {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center;
-  }
+#footer-end .end .company {
+  position: relative;
 }
 
-#footer-end .end .home {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 20px 20px;
+#footer-end .end .company h4::after {
+  content: "";
+  display: block;
+  width: 60px;
+  left: 0;
+  height: 2px;
+  background-color: red;
 }
 
-@media only screen and (max-width: 992px) {
-  #footer-end .end .home {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center;
-  }
-}
-
-#footer-end .end .home h3 {
+#footer-end .end .company a {
   font-size: 30px;
 }
 
-@media only screen and (max-width: 992px) {
-  #footer-end .end .logo {
-    text-align: center;
-  }
-}
-
-#footer-end .end .logo img {
-  width: 230px;
-  height: 70px;
-}
-
-#footer-end .end .logo p {
-  width: 300px;
+#footer-end .end .company a :hover {
   color: white;
-  font-size: 20px;
-}
-
-#footer-end .end .icon .fa-brands {
-  font-size: 30px;
-  color: white;
-}
-
-#footer-end .end .icon .fa-brands:hover {
-  color: black;
 }
 /*# sourceMappingURL=main.css.map */
