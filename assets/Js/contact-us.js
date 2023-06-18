@@ -28,3 +28,23 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+//////////////////////////////////////////////////////////
+
+const form=document.querySelector("form");
+const inputName=document.querySelector("#inputName");
+const email=document.querySelector("#inputEmail");
+const message=document.querySelector("#area");
+
+const base_url="http://localhost:8000/message";
+
+form.addEventListener("submit", async function(e){
+  e.preventDefault();
+  let obj={
+  name:inputName.value,
+  email:email.value,
+  message:message.value
+  }
+   await axios.post(`${base_url}`,obj)
+ })

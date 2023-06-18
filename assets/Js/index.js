@@ -46,3 +46,9 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+const logIn=document.querySelector(".login");
+logIn.addEventListener("click",function(e){
+  e.preventDefault()
+  window.location="log-in.html"
+})

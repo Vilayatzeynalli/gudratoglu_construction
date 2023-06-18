@@ -7,6 +7,11 @@
     justify-content: space-around;
     align-items: center;
     font-family: 'Play', sans-serif;
+    @media only screen and (max-width:768px) {
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+    }
     .company{
         position: relative;
        h4::after{

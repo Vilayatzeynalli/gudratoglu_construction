@@ -1,10 +1,35 @@
 {
-  "users":[
+  "users": [
     {
-        "username":"Vilayat",
-        "password":"vilayat030"
+      "name": "fjhfhfvjdg",
+      "lastname": "fergrg",
+      "email": "vilayat@gmail",
+      "password": "2423423",
+      "id": 1
+    },
+    {
+      "name": "fjhfhfvjdg",
+      "lastname": "brgtbrijvelrferf",
+      "email": "vilayat@gmail",
+      "password": "312312323",
+      "id": 2
+    },
+    {
+      "name": "ggdfsgg",
+      "lastname": "brgtbrijvelrferf",
+      "email": "vilayat@gmail",
+      "password": "1312323",
+      "id": 3
+    },
+    {
+      "name": "Malik",
+      "lastname": "wljdjwkfhdsrjkhsg",
+      "email": "dfdef@gmail.com",
+      "password": "654321",
+      "id": 4
     }
-],
+  ],
+  "message": [],
   "apartments": [
     {
       "id": 1,
@@ -123,6 +148,15 @@
       "address": "Academy of Sciences ",
       "grass": "4",
       "square": "160",
+      "city": "Baku"
+    },
+    {
+      "id": 1686835971384,
+      "photo": "./assets/Image/31239_PWh946XjP9RGj13Ca1Ctgg.jpg",
+      "price": "100000",
+      "address": "Cefer Cabbarli M",
+      "grass": "3",
+      "square": "150",
       "city": "Baku"
     }
   ]
