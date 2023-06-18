@@ -1,4 +1,10 @@
 {
+  "users":[
+    {
+        "username":"Vilayat",
+        "password":"vilayat030"
+    }
+],
   "apartments": [
     {
       "id": 1,
