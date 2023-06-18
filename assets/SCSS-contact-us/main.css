@@ -361,6 +361,29 @@ header .nav-mobile.show {
   font-family: 'Acme', sans-serif;
 }
 
+#contact-mesag {
+  padding: 50px 0;
+  font-family: 'Courgette', cursive;
+}
+
+#contact-mesag .input {
+  padding: 30px 0;
+  background-color: #e4dede;
+  border-radius: 20px;
+}
+
+#contact-mesag .input .title {
+  text-align: center;
+}
+
+#contact-mesag .input .title h2 {
+  font-size: 50px;
+}
+
+#contact-mesag .input .row .col-12 #area {
+  border-radius: 5px;
+}
+
 #footer-end {
   padding: 80px 0;
   background-color: #37138b;

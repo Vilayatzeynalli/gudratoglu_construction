@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit&family=Montserrat:wght@200;400&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans&family=Kanit&family=Lilita+One&family=Montserrat:wght@200;400&family=Pacifico&family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Cinzel:wght@500&family=Fira+Sans&family=Josefin+Sans&family=Kanit&family=Lilita+One&family=Lobster&family=Lobster+Two:wght@700&family=Merriweather:ital,wght@1,400;1,700&family=Montserrat:wght@200;400&family=Pacifico&family=Patua+One&family=Play:wght@700&family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Cinzel:wght@500&family=Courgette&family=Fira+Sans&family=Josefin+Sans&family=Kanit&family=Lilita+One&family=Lobster&family=Lobster+Two:wght@700&family=Merriweather:ital,wght@1,400;1,700&family=Montserrat:wght@200;400&family=Pacifico&family=Patua+One&family=Play:wght@700&family=Russo+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cinzel:wght@500&family=Courgette&family=Fira+Sans&family=Josefin+Sans&family=Kanit&family=Lilita+One&family=Lobster&family=Lobster+Two:wght@700&family=Merriweather:ital,wght@1,400;1,700&family=Montserrat:wght@200;400&family=Pacifico&family=Patua+One&family=Philosopher&family=Play:wght@700&family=Russo+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding: 0 5%;
+  }
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+  font-family: 'Patua One';
+  font-size: 19px;
+}
+
+@media only screen and (max-width: 768px) {
+  header .header {
+    padding: 10px;
+  }
+}
+
+header .header img {
+  height: 60px;
+  width: 150px;
+}
+
+header .header .log a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Acme', sans-serif;
+}
+
+header .header .log a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+header .header .log .login {
+  font-family: 'Acme', sans-serif;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 50px;
+  border-radius: 6px;
+}
+
+header .header .log .login:hover {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+header .header .language .fa-solid {
+  color: #000;
+  font-size: 20px;
+}
+
+header .header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header nav ul li a {
+  font-family: 'Acme', sans-serif;
+  color: #000;
+  text-decoration: none;
+  font-family: 'Acme', sans-serif;
+}
+
+header .header nav ul li a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+header .header #menu {
+  color: #fff;
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  header .header nav {
+    display: none;
+  }
+  header .header .log {
+    display: none;
+  }
+  header .header .language {
+    display: none;
+  }
+  header .header #menu {
+    display: block;
+    color: #000;
+  }
+}
+
+header .nav-mobile {
+  display: none;
+}
+
+header .nav-mobile nav .language .fa-solid {
+  color: #000;
+  font-size: 20px;
+}
+
+header .nav-mobile nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+  font-family: 'Acme', sans-serif;
+}
+
+header .nav-mobile nav ul .log a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .nav-mobile nav ul .log a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+header .nav-mobile nav ul .log .login {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 50px;
+  border-radius: 6px;
+  font-family: 'Acme', sans-serif;
+}
+
+header .nav-mobile nav ul .log .login:hover {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+header .nav-mobile nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+header .nav-mobile nav ul li a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+header .nav-mobile.show {
+  display: block;
+}
+#sign-in .input {
+    margin-top: 100px;
+    padding: 30px 0;
+   background-image:linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.6)), url(../../assets/Image/01min.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+  }
+  
+  #sign-in .input .title {
+    text-align: center;
+  }
+  
+  #sign-in .input .title h2 {
+    font-size: 60px;
+  }
+  
+  #sign-in .input .row .col-12 #area {
+    border-radius: 5px;
+  }
+  #footer-end {
+    padding: 80px 0;
+    background-color: #222224;
+  }
+  
+  #footer-end .end {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Play', sans-serif;
+  }
+  
+  #footer-end .end .company {
+    position: relative;
+  }
+  
+  #footer-end .end .company h4::after {
+    content: "";
+    display: block;
+    width: 60px;
+    left: 0;
+    height: 2px;
+    background-color: red;
+  }
+  
+  #footer-end .end .company a {
+    font-size: 30px;
+  }
+  
+  #footer-end .end .company a :hover {
+    color: white;
+  }
