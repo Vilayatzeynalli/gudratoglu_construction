@@ -47,6 +47,8 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+
+/////log in button
 const logIn=document.querySelector(".login");
 logIn.addEventListener("click",function(e){
   e.preventDefault()

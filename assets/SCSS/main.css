@@ -70,6 +70,10 @@ header .header .log a:hover {
   text-decoration: underline;
 }
 
+header .header .log a .fa-regular {
+  font-size: 22px;
+}
+
 header .header .log .login {
   font-family: 'Acme', sans-serif;
   border: 1px solid black;

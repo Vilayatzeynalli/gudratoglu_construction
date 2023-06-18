@@ -200,7 +200,7 @@ header .nav-mobile nav ul li a:hover {
 header .nav-mobile.show {
   display: block;
 }
-#log-in .input {
+#form .input {
     margin-top: 100px;
     padding: 100px 0;
    background-image:linear-gradient(
@@ -213,15 +213,15 @@ header .nav-mobile.show {
     color: white;
   }
   
-  #log-in .input .title {
+  #form .input .title {
     text-align: center;
   }
   
-  #log-in .input .title h2 {
+  #form .input .title h2 {
     font-size: 60px;
   }
   
-  #log-in .input .row .col-12 #area {
+  #form .input .row .col-12 #area {
     border-radius: 5px;
   }
   #footer-end {
