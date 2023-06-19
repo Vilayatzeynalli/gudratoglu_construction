@@ -1,15 +1,16 @@
 #history{
     padding: 100px 0;
     background-image: url(../Image/rf.jpg);
+    p{
+        font-family: 'Exo 2', sans-serif;
+    }
     .our{
         .col-12{
         h2{
             font-family: 'Russo One', sans-serif;
             font-size: 45px;
         }
-        p{
-            font-family: 'Acme', sans-serif;
-        }
+      
 
     }
 }
@@ -20,9 +21,6 @@
         font-size: 40px;
         color: brown;
         font-family: 'Russo One', sans-serif;
-    }
-    p{
-        font-family: 'Acme', sans-serif;
     }
     p::after{
         content: "";

@@ -29,3 +29,25 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+
+
+/////log in button
+const logIn=document.querySelector(".login");
+logIn.addEventListener("click",function(e){
+  e.preventDefault()
+  window.location="log-in.html"
+})
+
+/////animation
+ScrollReveal({ reset: true,
+  distance:"60px",
+  duration:2500,
+  delay:400
+});
+ScrollReveal().reveal('.our', { delay: 500,origin:'left'});
+ScrollReveal().reveal('.vision', { delay: 500});
+ScrollReveal().reveal('.title', { delay: 500,origin:'left'});
+ScrollReveal().reveal('.bg-img', { delay: 500});
+ScrollReveal().reveal('.corporation', { delay: 500});
+ScrollReveal().reveal('.manag', { delay: 500,origin:'left'});
+ScrollReveal().reveal('.end', { delay: 500});
