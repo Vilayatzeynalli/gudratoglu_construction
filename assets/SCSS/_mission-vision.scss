@@ -1,26 +1,74 @@
 #mission-vision{
-    padding: 70px 0;
-    .mission{
+    padding: 100px 0;
+    h1{
         text-align: center;
         font-family: 'Russo One', sans-serif;
-       h1{
-        font-size: 50px;
+    }
+  .mission{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    @media only screen and (max-width:992px) {
+        display: flex;
+        flex-direction: column;
+    }
+    .country{
+        padding: 150px 150px;
+        background-image: url(../Image/pexels-photo-950754.jpeg);
+        background-position: center;
+        background-size: cover;
+        border: 2px solid white;
+        border-radius: 5px;
        }
-    }
-    .vision{
-        .texts{
-            font-family: 'Acme', sans-serif;
-            transition: 0.8s;
-            &:hover{
-                transform: scale(1.1);
-                background-color: rgb(230, 227, 223);
-            }
-            h3{
-                color: rgb(241, 57, 57);
-            }
-            .void{
-                height: 200px;
-            }
-        }
-    }
+    .years{
+        padding: 150px 150px;
+        background-image: url(../Image/pexels-photo-3277468.jpeg);
+        background-position: center;
+        background-size: cover;
+        border: 1px solid white;
+        border-radius: 5px;
+       }
+    .office{
+        padding: 150px 150px;
+        background-image: url(../Image/pexels-photo-325185.jpeg);
+        background-position: center;
+        background-size: cover;
+        border: 1px solid white;
+        border-radius: 5px;
+       }
+    .inter{
+        padding: 150px 150px;
+        background-image: url(../Image/pexels-photo-2438208.jpeg);
+        background-position: center;
+        background-size: cover;
+        border: 1px solid white;
+        border-radius: 5px;
+       }
+  }
+
 }
+
+ // .mission{
+    //     text-align: center;
+    //     font-family: 'Russo One', sans-serif;
+    //    h1{
+    //     font-size: 50px;
+    //    }
+    // }
+    // .vision{
+    //     .texts{
+    //         font-family: 'Acme', sans-serif;
+    //         transition: 0.8s;
+    //         &:hover{
+    //             transform: scale(1.1);
+    //             background-color: rgb(230, 227, 223);
+    //         }
+    //         h3{
+    //             color: rgb(241, 57, 57);
+    //         }
+    //         .void{
+    //             height: 200px;
+    //         }
+    //     }
+    // }

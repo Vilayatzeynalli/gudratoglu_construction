@@ -45,9 +45,10 @@ ScrollReveal({ reset: true,
   delay:400
 });
 ScrollReveal().reveal('.our', { delay: 500,origin:'left'});
-ScrollReveal().reveal('.vision', { delay: 500});
+// ScrollReveal().reveal('.vision', { delay: 500});
 ScrollReveal().reveal('.title', { delay: 500,origin:'left'});
-ScrollReveal().reveal('.bg-img', { delay: 500});
+ScrollReveal().reveal('.bg-img', { delay: 500,origin:'top'});
 ScrollReveal().reveal('.corporation', { delay: 500});
 ScrollReveal().reveal('.manag', { delay: 500,origin:'left'});
 ScrollReveal().reveal('.end', { delay: 500});
+

@@ -48,3 +48,21 @@ form.addEventListener("submit", async function(e){
   }
    await axios.post(`${base_url}`,obj)
  })
+
+
+
+
+ /////scrollreveal
+ScrollReveal({ reset: true,
+  distance:"60px",
+  duration:2500,
+  delay:400
+});
+ScrollReveal().reveal('#contact', { delay: 500,origin:'top' });
+ScrollReveal().reveal('#azerbaijan', { delay: 500,origin:'top'});
+ScrollReveal().reveal('#turkey', { delay: 500});
+ScrollReveal().reveal('#georgia', { delay: 500,origin:'top'});
+ScrollReveal().reveal('#kazakhstan', { delay: 500});
+ScrollReveal().reveal('#uzbekistan', { delay: 500,origin:'top'});
+ScrollReveal().reveal('#contact-mesag', { delay: 500,origin:'left'});
+ScrollReveal().reveal('.end', { delay: 500});

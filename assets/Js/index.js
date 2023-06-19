@@ -61,14 +61,15 @@ ScrollReveal({ reset: true,
   duration:2500,
   delay:400
 });
-ScrollReveal().reveal('.mission', { delay: 500 });
+ScrollReveal().reveal('.country', { delay: 500,origin:'top'});
+ScrollReveal().reveal('.years', { delay: 500});
+ScrollReveal().reveal('.office', { delay: 500,origin:'top'});
+ScrollReveal().reveal('.inter', { delay: 500 });
 ScrollReveal().reveal('.cards', { delay: 500,});
-ScrollReveal().reveal('.title', { delay: 500});
-ScrollReveal().reveal('.our', { delay: 500,origin:'left'});
-ScrollReveal().reveal('.us', { delay: 500});
+ScrollReveal().reveal('.team-1', { delay: 500,origin:'top'});
+ScrollReveal().reveal('.team-2', { delay: 500});
+ScrollReveal().reveal('.us', { delay: 500,origin:'top'});
 ScrollReveal().reveal('.we', { delay: 500});
 ScrollReveal().reveal('#architectural-agency', { delay: 500});
-ScrollReveal().reveal('.img', { delay: 500});
-ScrollReveal().reveal('.number', { delay: 500});
 ScrollReveal().reveal('.call', { delay: 500,origin:'left'});
 ScrollReveal().reveal('.end', { delay: 500});

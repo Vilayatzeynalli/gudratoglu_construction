@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Cinzel:wght@500&family=Cookie&family=Courgette&family=Fira+Sans&family=Josefin+Sans&family=Kanit&family=Lilita+One&family=Lobster&family=Lobster+Two:wght@700&family=Merriweather:ital,wght@1,400;1,700&family=Montserrat:wght@200;400&family=Pacifico&family=Patua+One&family=Philosopher&family=Play:wght@700&family=Russo+One&family=Tangerine:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Cinzel:wght@500&family=Cookie&family=Courgette&family=Fira+Sans&family=Josefin+Sans&family=Kanit&family=Lilita+One&family=Lobster&family=Lobster+Two:wght@700&family=Merienda&family=Merriweather:ital,wght@1,400;1,700&family=Montserrat:wght@200;400&family=Pacifico&family=Patua+One&family=Philosopher&family=Play:wght@700&family=Playball&family=Russo+One&family=Tangerine:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cookie&family=Courgette&family=Fira+Sans&family=Josefin+Sans&family=Kanit&family=Lilita+One&family=Lobster&family=Lobster+Two:wght@700&family=Merienda&family=Merriweather:ital,wght@1,400;1,700&family=Montserrat:wght@200;400&family=PT+Serif&family=Pacifico&family=Patua+One&family=Philosopher&family=Play:wght@700&family=Playball&family=Russo+One&family=Tangerine:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cookie&family=Courgette&family=Exo+2&family=Fira+Sans&family=Josefin+Sans&family=Kanit&family=Lilita+One&family=Lobster&family=Lobster+Two:wght@700&family=Merienda&family=Merriweather:ital,wght@1,400;1,700&family=Montserrat:wght@200;400&family=PT+Serif&family=Pacifico&family=Patua+One&family=Philosopher&family=Play:wght@700&family=Playball&family=Russo+One&family=Satisfy&family=Tangerine:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -222,6 +223,7 @@ header .nav-mobile.show {
 #core-values .carousel-caption .text h6 {
   font-size: 20px;
   letter-spacing: 5px;
+  font-family: 'Satisfy', cursive;
 }
 
 #core-values .carousel-caption .text h1 {
@@ -270,36 +272,72 @@ header .nav-mobile.show {
 }
 
 #mission-vision {
-  padding: 70px 0;
+  padding: 100px 0;
 }
 
-#mission-vision .mission {
+#mission-vision h1 {
   text-align: center;
   font-family: 'Russo One', sans-serif;
 }
 
-#mission-vision .mission h1 {
-  font-size: 50px;
+#mission-vision .mission {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
 }
 
-#mission-vision .vision .texts {
-  font-family: 'Acme', sans-serif;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
+@media only screen and (max-width: 992px) {
+  #mission-vision .mission {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
-#mission-vision .vision .texts:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  background-color: #e6e3df;
+#mission-vision .mission .country {
+  padding: 150px 150px;
+  background-image: url(../Image/pexels-photo-950754.jpeg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid white;
+  border-radius: 5px;
 }
 
-#mission-vision .vision .texts h3 {
-  color: #f13939;
+#mission-vision .mission .years {
+  padding: 150px 150px;
+  background-image: url(../Image/pexels-photo-3277468.jpeg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
-#mission-vision .vision .texts .void {
-  height: 200px;
+#mission-vision .mission .office {
+  padding: 150px 150px;
+  background-image: url(../Image/pexels-photo-325185.jpeg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#mission-vision .mission .inter {
+  padding: 150px 150px;
+  background-image: url(../Image/pexels-photo-2438208.jpeg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
 #residential {
