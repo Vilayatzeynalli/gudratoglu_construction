@@ -1,91 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin</title>
-    <link rel="stylesheet" href="./assets/CSS-admin/style.css" />
-  </head>
-  <body class="bodyForm">
-    
-    <div class="container"> 
-       <form id="form" action="">
-  <h1>Login for Admin</h1>
-  <div class="input-control">
-    <label for="username">Username</label>
-    <input id="username" name="username" type="text" />
-    <div class="error"></div>
-  </div><br><br>
-  <div class="input-control">
-    <label for="password">Password</label>
-    <input id="password" type="password" />
-    <div class="error"></div>
-  </div><br><br>
-  <div class="input-control">
-    <label for="password2">Password again</label>
-    <input id="password2" type="password" />
-    <div class="error"></div>
-  </div><br><br>
-  <button type="submit">Login</button>
-</form>
-    </div>
-    <footer id="footer-end">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS-admin/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="header">
+            <div class="logo">
+              <h2><i class="fa-solid fa-layer-group"></i> <strong>Gudratoglu</strong></h2>
+             </div>
+            <nav>
+              <ul class="mb-0">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about-us.html">About us</a></li>
+                <li><a href="./project.html">Our Projects</a></li>
+                <li><a href="./career.html">Career</a></li>
+                <li><a href="./contact-us.html">Contact Us</a></li>
+              </ul>
+            </nav>
+           <div class="log"> 
+            <a href="">Sign in</a>
+            <button class="login">Login</button>
+            <a href="./admin.html"><i class="fa-solid fa-circle-user"></i></a>
+           </div>
+            <i class="fa-solid fa-bars" id="menu"></i>
+          </div>
+          <div class="nav-mobile">
+              <nav>
+                  <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="./about-us.html">About us</a></li>
+                      <li><a href="./project.html">Our Projects</a></li>
+                      <li><a href="./career.html">Career</a></li>
+                      <li><a href="./contact-us.html">Contact Us</a></li>
+                      <div class="log"> 
+                        <a href="">Sign in</a>
+                        <button class="login">Login</button>
+                        <a href="./admin.html"><i class="fa-solid fa-circle-user"></i></a>
+                       </div>
+                    </ul>
+              </nav>
+          </div>
+        </div>
+      </header>
+     <form action="" id="form">
       <div class="container">
-       <div class="end">
-        <div class="company">
-          <h4>Company</h4>
-          <li>About us</li>
-          <li>Our Services</li>
-          <li>Privacy Policy</li>
-          <li>Sollers</li>
+        <div class="input ">
+            <div class="title">
+                <h2>Admin Log in</h2>
+            </div><br><br>
+            <div class="row">
+                <div class="col-12 col-lg-4"></div>
+             <div class="col-12 col-lg-4">
+                <label for=""> Firstname:</label><br>
+                <div class="input-group mb-3">
+                    <input id="inputFirstName" type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                  </div>
+             </div>
+             <div class="col-12 col-lg-4"></div>
+             </div>
+             <div class="row">
+                <div class="col-12 col-lg-4"></div>
+             <div class="col-12 col-lg-4">
+                <label for="">Password:</label>
+                <div class="input-group mb-3">
+                    <input id="inputPassword" type="password" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                  </div>
+             </div>
+             <div class="col-12 col-lg-4"></div>
+             </div>
+             <div class="row">
+                <div class="col-12 col-lg-4"></div>
+             <div class="col-12 col-lg-4">
+                <div class="input-group mb-3">
+                    <button id="submitBtn" type="submit" class="btn btn-secondary">Submit</button>
+                  </div>
+             </div>
+             <div class="col-12 col-lg-4"></div>
+             </div>
         </div>
-        <div class="company">
-          <h4>About Us</h4>
-          <li>Our Principles</li>
-          <li>Companies</li>
-          <li>History</li>
-          <li>Management</li>
+    </div>
+     </form>
+       <footer id="footer-end">
+        <div class="container">
+         <div class="end">
+          <div class="company">
+            <h4>Company</h4>
+            <li>About us</li>
+            <li>Our Services</li>
+            <li>Privacy Policy</li>
+            <li>Sollers</li>
+          </div>
+          <div class="company">
+            <h4>About Us</h4>
+            <li>Our Principles</li>
+            <li>Companies</li>
+            <li>History</li>
+            <li>Management</li>
+          </div>
+          <div class="company">
+            <h4>Our Projects</h4>
+            <li>Projects</li>
+            <li>Apartments</li>
+            <li>Roads</li>
+            <li>Tunnels</li>
+          </div>
+          <div class="company">
+            <h4>Follow Us</h4>
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <a href=""> <i class="fa-brands fa-square-twitter"></i></a>
+            <a href=""> <i class="fa-brands fa-square-instagram"></i></a><br>
+            <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-square-google-plus"></i></a>
+            <a href=""><i class="fa-solid fa-envelope"></i></a>
+          </div>
         </div>
-        <div class="company">
-          <h4>Our Projects</h4>
-          <li>Projects</li>
-          <li>Apartments</li>
-          <li>Roads</li>
-          <li>Tunnels</li>
         </div>
-        <div class="company">
-          <h4>Follow Us</h4>
-          <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-          <a href=""> <i class="fa-brands fa-square-twitter"></i></a>
-          <a href=""> <i class="fa-brands fa-square-instagram"></i></a><br>
-          <a href=""> <i class="fa-brands fa-linkedin"></i></a>
-          <a href=""><i class="fa-brands fa-square-google-plus"></i></a>
-          <a href=""><i class="fa-solid fa-envelope"></i></a>
-        </div>
-      </div>
-      </div>
-     </footer>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"
-      integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="./assets/Js/admin.js"></script>
-  </body>
+       </footer>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       <script src="./assets/Js/admin.js"></script>
+</body>
 </html>
-
-
-<!-- <div id="error"></div>
-<form id="form" action="/" method="GET">
-  <div>
-    <label for="name">Name</label>
-    <input id="username" name="name" type="text" required>
-  </div>
-  <div>
-    <label for="password">Password</label>
-    <input id="password" name="password" type="password">
-  </div>
-  <button type="submit">Submit</button>
-</form> -->

@@ -1,21 +1,5 @@
 
 
-// loadMore.addEventListener("click",function(){
-//     maxLength+=3
-//     if(maxLength >= searchData.length){
-//         loadMore.style.display=`none`
-
-//     }if(searchData.length){
-//     getAllData(searchData.slice(0,maxLength));
-        
-//     }
-//     else{
-        
-
-//     }
-// })
-
-
 //menu iconu
 let menuIcon = document.querySelector("#menu");
 let navMobile = document.querySelector(".nav-mobile");

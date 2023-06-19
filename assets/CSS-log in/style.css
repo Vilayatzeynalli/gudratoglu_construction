@@ -24,6 +24,7 @@
   }
 }
 
+
 header {
   background-color: white;
   position: fixed;
@@ -43,7 +44,7 @@ header .header {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 0;
-  font-family: 'Patua One';
+  font-family: 'PT Serif', serif;
   font-size: 19px;
 }
 
@@ -61,7 +62,6 @@ header .header img {
 header .header .log a {
   text-decoration: none;
   color: black;
-  font-family: 'Acme', sans-serif;
 }
 
 header .header .log a:hover {
@@ -69,8 +69,11 @@ header .header .log a:hover {
   text-decoration: underline;
 }
 
+header .header .log a .fa-solid {
+  font-size: 22px;
+}
+
 header .header .log .login {
-  font-family: 'Acme', sans-serif;
   border: 1px solid black;
   background-color: white;
   color: black;
@@ -101,10 +104,8 @@ header .header nav ul {
 }
 
 header .header nav ul li a {
-  font-family: 'Acme', sans-serif;
   color: #000;
   text-decoration: none;
-  font-family: 'Acme', sans-serif;
 }
 
 header .header nav ul li a:hover {
@@ -137,11 +138,6 @@ header .nav-mobile {
   display: none;
 }
 
-header .nav-mobile nav .language .fa-solid {
-  color: #000;
-  font-size: 20px;
-}
-
 header .nav-mobile nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -158,7 +154,7 @@ header .nav-mobile nav ul {
       -ms-flex-pack: center;
           justify-content: center;
   height: 80vh;
-  font-family: 'Acme', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 header .nav-mobile nav ul .log a {
@@ -178,7 +174,7 @@ header .nav-mobile nav ul .log .login {
   height: 30px;
   width: 50px;
   border-radius: 6px;
-  font-family: 'Acme', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 header .nav-mobile nav ul .log .login:hover {

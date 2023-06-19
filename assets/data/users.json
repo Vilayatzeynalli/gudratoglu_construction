@@ -36,7 +36,15 @@
       "id": 5
     }
   ],
-  "message": [],
+  "message":[
+
+  ],
+  "admin": [
+   {
+    "username":"Zeynalli",
+    "password":"vilayat0111"
+   }
+  ],
   "apartments": [
     {
       "id": 1,
