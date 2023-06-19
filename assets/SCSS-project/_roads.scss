@@ -5,6 +5,7 @@
         font-family: 'Russo One', sans-serif;
     }
     .imageText{
+        font-family: 'Cinzel', serif;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -15,7 +16,6 @@
         .images{
             p{
                 width: 500px;
-                font-family: 'Acme', sans-serif;
                 @media only screen and (max-width:992px) {
                 width: 350px;
                 }

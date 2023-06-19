@@ -1,0 +1,38 @@
+#footer-end{
+    padding: 80px 0;
+    background-color: rgb(34, 34, 36);
+   .end{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Play', sans-serif;
+    @media only screen and (max-width:768px) {
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+    }
+    .company{
+        position: relative;
+       h4::after{
+        content: "";
+        display: block;
+        width: 60px;
+        left: 0;
+        height: 2px;
+        background-color: red;
+       }
+       a{
+        font-size: 30px;
+        :hover{
+            color: white;
+        }
+       }
+       
+    }
+    .icon{
+       
+      
+    }
+   }
+}

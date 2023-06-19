@@ -4,11 +4,10 @@ const inputSearch=document.querySelector("#inputSearch");
 const searchInput=document.querySelector("#searchInput");
 const sortBtn=document.querySelector("#sortBtn");
 const loadMore=document.querySelector("#loadMore");
-// let searchData=[]
-// let allData=[]
-// let maxLength=4
+let searchData=[]
+let allData=[]
+let maxLength=3
 
-// {/* <a href="./details.html?id=${element.id}" class="btn"><i class="fa-solid fa-circle-info"></i></a> */}
 
 function getAllData(array){
     row.innerHTML="";
@@ -18,9 +17,9 @@ function getAllData(array){
         <div class="card" style="width: 18rem;">
             <img src="${element.photo}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="card-title">${element.price} AZN</h4>
+              <h4 class="card-title"><strong>${element.price} AZN</strong></h4>
               <h5 class="card-text">${element.address}</h5>
-             <p> ${element.grass} grassy,${element.square} Kv.m</p><h6>${element.city}</h6>
+             <p> ${element.grass} grassy,${element.square} Kv.m</p><h5>${element.city}</h5>
               <a href="#" onclick=addFav(${element.id}) class="btn"><i class="fa-solid fa-star"></i></a>
   
             </div>
@@ -30,6 +29,17 @@ function getAllData(array){
 }
 axios(BASE).then((res)=>getAllData(res.data));
 
+loadMore.addEventListener("click",function(){
+    maxLength+=3
+    if(maxLength >= searchData.length){
+        loadMore.style.display=`none`
+
+    }if(searchData.length){
+    getAllData(searchData.slice(0,maxLength));
+        
+    }
+   
+})
 
 //search
 inputSearch.addEventListener("input",function(e){
@@ -97,6 +107,17 @@ menuIcon.addEventListener("click", function () {
     ? (this.classList = "fa-solid fa-xmark")
     : (this.classList = "fa-solid fa-bars");
 });
+
+/////scrollreveal
+ScrollReveal({ reset: true,
+  distance:"60px",
+  duration:2500,
+  delay:400
+});
+ScrollReveal().reveal('#our-project', { delay: 500,origin:'left' });
+ScrollReveal().reveal('.images', { delay: 500,origin:'left' });
+ScrollReveal().reveal('.apartment', { delay: 500,origin:'left'});
+ScrollReveal().reveal('.end', { delay: 500});
 
 
 let mybutton = document.getElementById("myBtn");

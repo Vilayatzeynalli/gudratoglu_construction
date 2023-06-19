@@ -165,6 +165,15 @@
       "grass": "3",
       "square": "150",
       "city": "Baku"
+    },
+    {
+      "id": 6,
+      "photo": "./assets/Image/31239_PWh946XjP9RGj13Ca1Ctgg.jpg",
+      "price": 244000,
+      "address": "Nesimi",
+      "grass": 2,
+      "square": 110,
+      "city": "Baku"
     }
   ]
 }

@@ -90,6 +90,7 @@
           align-items: center;
   text-align: center;
   position: relative;
+  font-family: 'Exo 2', sans-serif;
 }
 
 #projects .row .col-12 .btn {
@@ -111,6 +112,7 @@
 }
 
 #roads .imageText {
+  font-family: 'Cinzel', serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,7 +135,6 @@
 
 #roads .imageText .images p {
   width: 500px;
-  font-family: 'Acme', sans-serif;
 }
 
 @media only screen and (max-width: 992px) {
@@ -329,5 +330,57 @@ header .nav-mobile nav ul li a:hover {
 
 header .nav-mobile.show {
   display: block;
+}
+
+#footer-end {
+  padding: 80px 0;
+  background-color: #222224;
+}
+
+#footer-end .end {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Play', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  #footer-end .end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
+#footer-end .end .company {
+  position: relative;
+}
+
+#footer-end .end .company h4::after {
+  content: "";
+  display: block;
+  width: 60px;
+  left: 0;
+  height: 2px;
+  background-color: red;
+}
+
+#footer-end .end .company a {
+  font-size: 30px;
+}
+
+#footer-end .end .company a :hover {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
