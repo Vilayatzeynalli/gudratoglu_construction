@@ -54,3 +54,21 @@ logIn.addEventListener("click",function(e){
   e.preventDefault()
   window.location="log-in.html"
 })
+
+
+ScrollReveal({ reset: true,
+  distance:"60px",
+  duration:2500,
+  delay:400
+});
+ScrollReveal().reveal('.mission', { delay: 500 });
+ScrollReveal().reveal('.cards', { delay: 500,});
+ScrollReveal().reveal('.title', { delay: 500});
+ScrollReveal().reveal('.our', { delay: 500,origin:'left'});
+ScrollReveal().reveal('.us', { delay: 500});
+ScrollReveal().reveal('.we', { delay: 500});
+ScrollReveal().reveal('#architectural-agency', { delay: 500});
+ScrollReveal().reveal('.img', { delay: 500});
+ScrollReveal().reveal('.number', { delay: 500});
+ScrollReveal().reveal('.call', { delay: 500,origin:'left'});
+ScrollReveal().reveal('.end', { delay: 500});
