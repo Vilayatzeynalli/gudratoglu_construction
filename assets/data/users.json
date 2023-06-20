@@ -126,24 +126,6 @@
   ],
   "favorites": [
     {
-      "id": 3,
-      "photo": "./assets/Image/35650_JbvWmzK9tdNpM0v_9vTxOA.jpg",
-      "price": 550000,
-      "address": "Neftchliar M",
-      "grass": 3,
-      "square": 174,
-      "city": "Baku"
-    },
-    {
-      "id": 6,
-      "photo": "./assets/Image/31239_PWh946XjP9RGj13Ca1Ctgg.jpg",
-      "price": 244000,
-      "address": "Nesimi",
-      "grass": 2,
-      "square": 110,
-      "city": "Baku"
-    },
-    {
       "id": 5,
       "photo": "./assets/Image/40071_YThZPCwIVX84I8onc0WlGA.jpg",
       "price": 360000,

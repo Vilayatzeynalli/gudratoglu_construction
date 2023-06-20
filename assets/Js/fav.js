@@ -15,13 +15,19 @@ async function getAllData(){
               <h4 class="card-title"><strong>${element.price} AZN</strong></h4>
               <h5 class="card-text">${element.address}</h5>
              <p> ${element.grass} grassy,${element.square} Kv.m</p><h5>${element.city}</h5>
-             <a href="#" class="btn"><i class="fa-solid fa-xmark"></i></a>
+             <a href="#" class="btn" onclick=deleteBtn(${element.id})><i class="fa-solid fa-xmark"></i></a>
             </div>
           </div>
       </div>`
     });
 }
 getAllData();
+
+//delete
+async function deleteBtn(userId){
+  axios.delete(`${FAV_URL}/${userId}`);
+  getAllData();
+};
 
 //menu iconu
 let menuIcon = document.querySelector("#menu");
