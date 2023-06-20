@@ -32,12 +32,12 @@
   "apartments": [
     {
       "id": 1,
-      "photo": "./assets/Image/40101_5PwSV2akkFi-Ad7blIHu_Q.jpg",
+      "photo": "./assets/Image/35669_C4Z-GJmanZmZpHZL82g1uw.jpg",
       "price": "112000",
-      "address": "Academy of Sciences ",
-      "grass": "4",
-      "square": "160",
-      "city": "Baku"
+      "address": "Abseron ",
+      "grass": "3",
+      "square": "150",
+      "city": "Abseron"
     },
     {
       "id": 2,
