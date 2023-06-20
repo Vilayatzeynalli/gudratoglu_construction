@@ -10,13 +10,13 @@ async function getAllData(){
     data.forEach(element => {
         row.innerHTML+=`
         <div class="card">
-                    <div class="box">
-                        <h3>${element.name}</h3>
-                        <h5>${element.email}</h5>
-                        <p>${element.message}</p><br>
-                        <a href="#" class="btn btn-primary" onclick=deleteBtn(${element.id})>Delete</a>
-                    </div>
-                </div>`
+            <div class="box">
+                <h3>${element.name}</h3>
+                <h5>${element.email}</h5>
+                <p>${element.message}</p><br>
+                <a href="#" class="btn btn-primary" onclick=deleteBtn(${element.id})>Delete</a>
+            </div>
+        </div>`
     });
 }
 getAllData();
