@@ -9,7 +9,6 @@ form2.addEventListener("submit",async function(e){
 e.preventDefault();
 const res=await axios(BASE)
 const data=await res.data
-console.log(data);
 if(data.find((item)=>item.name == inputFirstName.value && item.password == inputPassword.value)){
     window.location="index.html";
 }else{

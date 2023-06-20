@@ -1,49 +1,21 @@
 {
   "users": [
     {
-      "name": "fjhfhfvjdg",
-      "lastname": "fergrg",
-      "email": "vilayat@gmail",
-      "password": "2423423",
-      "id": 1
-    },
-    {
-      "name": "fjhfhfvjdg",
-      "lastname": "brgtbrijvelrferf",
-      "email": "vilayat@gmail",
-      "password": "312312323",
+      "name": "Vilayat ",
+      "lastname": "Zeynalli",
+      "email": "vilayatzeynalli@gmail.com",
+      "password": "654321",
       "id": 2
     },
     {
-      "name": "ggdfsgg",
-      "lastname": "brgtbrijvelrferf",
-      "email": "vilayat@gmail",
-      "password": "1312323",
+      "name": "Nergis",
+      "lastname": "Melikova",
+      "email": "diana@gmail.com",
+      "password": "naargs8",
       "id": 3
-    },
-    {
-      "name": "Malik",
-      "lastname": "wljdjwkfhdsrjkhsg",
-      "email": "dfdef@gmail.com",
-      "password": "654321",
-      "id": 4
-    },
-    {
-      "name": "Vilayat",
-      "lastname": "Zeynalli",
-      "email": "vilayat@gmail",
-      "password": "123456",
-      "id": 5
     }
   ],
-  "message": [
-    {
-      "name": "jdfhjvdv",
-      "email": "vfvvjvh@gmail",
-      "message": "dvfvfgbfgb",
-      "id": 1
-    }
-  ],
+  "message": [],
   "admin": [
     {
       "username": "Zeynalli",
