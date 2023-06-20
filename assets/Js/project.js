@@ -79,7 +79,6 @@ async function addFav(id) {
   let obj = await res.data;
   console.log('fav',obj);
   axios.post(`${FAV_URL}`, obj);
-  window.location = "fav.html";
 };
 
 

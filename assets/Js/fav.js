@@ -12,9 +12,10 @@ async function getAllData(){
         <div class="card" style="width: 18rem;">
             <img src="${element.photo}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">${element.price} AZN</h5>
-              <p class="card-text">${element.address}</p>
-             <p> ${element.grass} grassy,${element.square} Kv.m</p><span>${element.city}</span><br>
+              <h4 class="card-title"><strong>${element.price} AZN</strong></h4>
+              <h5 class="card-text">${element.address}</h5>
+             <p> ${element.grass} grassy,${element.square} Kv.m</p><h5>${element.city}</h5>
+             <a href="#" class="btn"><i class="fa-solid fa-xmark"></i></a>
             </div>
           </div>
       </div>`
