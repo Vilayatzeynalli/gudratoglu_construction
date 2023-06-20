@@ -103,24 +103,5 @@
       "city": "Baku"
     }
   ],
-  "favorites": [
-    {
-      "id": 5,
-      "photo": "./assets/Image/40071_YThZPCwIVX84I8onc0WlGA.jpg",
-      "price": 360000,
-      "address": "Yasamal",
-      "grass": 4,
-      "square": 97,
-      "city": "Baku"
-    },
-    {
-      "id": 1686830234701,
-      "photo": "./assets/Image/40101_5PwSV2akkFi-Ad7blIHu_Q.jpg",
-      "price": "150000",
-      "address": "28 May M",
-      "grass": "3",
-      "square": "120",
-      "city": "Baku"
-    }
-  ]
+  "favorites": []
 }
