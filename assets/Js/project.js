@@ -29,17 +29,6 @@ function getAllData(array){
 }
 axios(BASE).then((res)=>getAllData(res.data));
 
-loadMore.addEventListener("click",function(){
-    maxLength+=3
-    if(maxLength >= searchData.length){
-        loadMore.style.display=`none`
-
-    }if(searchData.length){
-    getAllData(searchData.slice(0,maxLength));
-        
-    }
-   
-})
 
 //search
 inputSearch.addEventListener("input",function(e){
@@ -108,16 +97,7 @@ menuIcon.addEventListener("click", function () {
     : (this.classList = "fa-solid fa-bars");
 });
 
-/////scrollreveal
-ScrollReveal({ reset: true,
-  distance:"60px",
-  duration:2500,
-  delay:400
-});
-ScrollReveal().reveal('#our-project', { delay: 500,origin:'left' });
-ScrollReveal().reveal('.images', { delay: 500,origin:'left' });
-ScrollReveal().reveal('.apartment', { delay: 500,origin:'left'});
-ScrollReveal().reveal('.end', { delay: 500});
+
 
 
 let mybutton = document.getElementById("myBtn");
@@ -138,73 +118,3 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-// function createCard(arr){
-//     row.innerHTML=``;
-//     arr.forEach(element => {
-//         row.innerHTML+=`
-//         <div class="col-12 col-lg-3 mb-4 text-center">
-//         //         <div class="card" style="width: 18rem;">
-//         //             <img src="${element.photo}" class="card-img-top" alt="...">
-//         //             <div class="card-body">
-//         //               <h4 class="card-title">${element.price} AZN</h4>
-//         //               <h5 class="card-text">${element.address}</h5>
-//         //              <p> ${element.grass} grassy,${element.square} Kv.m</p><h6>${element.city}</h6>
-//         //               <a href="#" onclick=addFav(${element.id}) class="btn"><i class="fa-regular fa-heart"></i></a>
-//         //               <a href="./details.html?id=${element.id}" class="btn"><i class="fa-solid fa-circle-info"></i></a>
-//         //             </div>
-//         //           </div>
-//         //       </div>
-//         `
-        
-//     });
-// }
-
-// async function getAllData(){
-//     let res=await axios(BASE);
-//     let data=res.data;
-//     allData=data;
-//     searchData= inputSearch.value ? searchData : allData;
-//     console.log(data);
-
-//     createCard(searchData.slice(0,maxLength));
-// }
-// getAllData();
-
-
-// loadMore.addEventListener("click",function(){
-//     maxLength+=4
-//     if(maxLength >= searchData.length){
-//         loadMore.style.display=`none`
-
-//     }if(searchData.length){
-//     createCard(searchData.slice(0,maxLength));
-        
-//     }
-//     else{
-//         getAllData()
-
-//     }
-// })
-
-// sortBtn.addEventListener("click",function(){
-//     if(sort.innerHTML==`Ascending`){
-//         searchData=searchData.sort((a,b)=>a.price-b.price)
-//         sort.innerHTML=`Descendig`
-//     }else if(sort.innerHTML==`Descendig`){
-//         searchData=searchData.sort((a,b)=>b.price-a.price)
-//         sort.innerHTML=`Default`
-//     }else{
-//         getAllData()
-//         sort.innerHTML=`Ascending`
-//     }
-//     createCard(searchData.slice(0,maxLength))
-//  })
-
-// inputSearch.addEventListener("input",function(e){
-//     searchData=allData;
-//     searchData=searchData.filter((element)=>element.address
-//     .toLocaleLowerCase()
-//     .includes(e.target.value.toLocaleLowerCase()))
-// createCard(searchData.slice(0,maxLength))
-//  })
