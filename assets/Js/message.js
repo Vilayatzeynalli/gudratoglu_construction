@@ -1,5 +1,6 @@
 const base_url="http://localhost:8000/message";
-const row=document.querySelector(".row");
+const row=document.querySelector(".cards");
+
 
 
 async function getAllData(){
@@ -8,16 +9,14 @@ async function getAllData(){
     data.innerHTML="";
     data.forEach(element => {
         row.innerHTML+=`
-        <div class="col-12 col-lg-4 flex-nowrap mb-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                      <h4 class="card-title">${element.name}</h4>
-                      <h6 class="card-title">${element.email}</h6>
-                      <p class="card-text">${element.message}</p>
-                      <a href="#" class="btn btn-primary" onclick=deleteBtn(${element.id})>Delete</a>
+        <div class="card">
+                    <div class="box">
+                        <h3>${element.name}</h3>
+                        <h5>${element.email}</h5>
+                        <p>${element.message}</p><br>
+                        <a href="#" class="btn btn-primary" onclick=deleteBtn(${element.id})>Delete</a>
                     </div>
-                  </div>
-            </div>`
+                </div>`
     });
 }
 getAllData();
@@ -27,7 +26,6 @@ async function deleteBtn(userId){
     axios.delete(`${base_url}/${userId}`);
 };
 getAllData();
-
 
 
 //menu iconu
