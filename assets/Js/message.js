@@ -6,8 +6,9 @@ const row=document.querySelector(".cards");
 async function getAllData(){
     let res=await axios(`${base_url}`);
     let data=await res.data;
-    data.innerHTML="";
+    row.innerHTML="";
     data.forEach(element => {
+        console.log(data);
         row.innerHTML+=`
         <div class="card">
             <div class="box">
