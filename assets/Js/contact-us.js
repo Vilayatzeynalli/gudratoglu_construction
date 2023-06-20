@@ -49,6 +49,13 @@ form.addEventListener("submit", async function(e){
    await axios.post(`${base_url}`,obj)
  })
 
+ /////log in button
+const logIn=document.querySelector(".login");
+logIn.addEventListener("click",function(e){
+  e.preventDefault()
+  window.location="log-in.html"
+})
+
 
 
 
